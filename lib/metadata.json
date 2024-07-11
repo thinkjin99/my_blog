@@ -1,0 +1,3304 @@
+{
+  "vaultName": "my_study",
+  "lastExport": 1720679387489,
+  "pluginVersion": "1.8.01",
+  "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon code-styler code-styler-style-inline code-styler-gutter-highlight",
+  "useCustomHeadContent": false,
+  "useCustomFavicon": false,
+  "files": [
+    "algorithm/투 포인터.md",
+    "algorithm/DFS.md",
+    "algorithm/DP.md",
+    "assignment/network/http/simple_webserver/지선의/article1.html",
+    "assignment/network/http/simple_webserver/지선의/article2.html",
+    "assignment/network/http/simple_webserver/지선의/article3.html",
+    "assignment/network/http/simple_webserver/지선의/index.html",
+    "assignment/network/http/simple_webserver/지선의/server.cpp",
+    "assignment/network/http/simple_webserver/nayoung/article1.html",
+    "assignment/network/http/simple_webserver/nayoung/article2.html",
+    "assignment/network/http/simple_webserver/nayoung/article3.html",
+    "assignment/network/http/simple_webserver/nayoung/client.js",
+    "assignment/network/http/simple_webserver/nayoung/index.html",
+    "assignment/network/http/simple_webserver/nayoung/server.js",
+    "assignment/network/http/simple_webserver/ym/src/article1.html",
+    "assignment/network/http/simple_webserver/ym/src/article2.html",
+    "assignment/network/http/simple_webserver/ym/src/article3.html",
+    "assignment/network/http/simple_webserver/ym/src/index.html",
+    "assignment/network/http/simple_webserver/ym/homework_client.py",
+    "assignment/network/http/simple_webserver/ym/homework_server.py",
+    "assignment/network/http/simple_webserver/yujin/article1.html",
+    "assignment/network/http/simple_webserver/yujin/article2.html",
+    "assignment/network/http/simple_webserver/yujin/article3.html",
+    "assignment/network/http/simple_webserver/yujin/client.py",
+    "assignment/network/http/simple_webserver/yujin/index.html",
+    "assignment/network/http/simple_webserver/yujin/server.py",
+    "assignment/network/http/싱글 스레드 기반의 초간단 정적 웹서버 만들기.md",
+    "assignment/os/thread/assign2_seoneui/tcp_echo_client.cpp",
+    "assignment/os/thread/assign2_seoneui/tcp_echo_server.cpp",
+    "assignment/os/thread/assign2_seoneui/udp_echo_client.cpp",
+    "assignment/os/thread/assign2_seoneui/udp_echo_server.cpp",
+    "assignment/os/thread/assignment3_beomsu/Main.java",
+    "assignment/os/thread/assignment3_beomsu/MyThread.java",
+    "assignment/os/thread/assign1_hwangon.py.md",
+    "assignment/assign1_yujin.py",
+    "attachments/network/ethernet/Pasted image 20231011140038.png",
+    "attachments/network/ethernet/Pasted image 20231011150941.png",
+    "attachments/network/ethernet/Pasted image 20231011151641.png",
+    "attachments/network/ethernet/Pasted image 20231011152502.png",
+    "attachments/network/ethernet/Pasted image 20231011170147.png",
+    "attachments/network/Pasted image 20231004174458.png",
+    "attachments/os/2023-10-16_12.13.08.png",
+    "attachments/os/스크린샷 2023-10-06 오후 4.58.02.png",
+    "attachments/os/스크린샷 2023-10-12 오후 4.46.08.png",
+    "attachments/os/스크린샷 2023-10-13 오전 11.44.37.png",
+    "attachments/os/스크린샷 2023-10-15 오후 3.03.49.png",
+    "attachments/os/스크린샷 2023-10-15 오후 6.35.01.png",
+    "attachments/os/스크린샷 2023-10-16 오후 2.01.59.png",
+    "attachments/os/스크린샷 2023-10-16 오후 4.32.40.png",
+    "attachments/os/스크린샷 2023-10-16 오후 10.20.51.png",
+    "attachments/os/스크린샷 2023-10-16 오후 10.48.40.png",
+    "attachments/os/스크린샷 2023-10-16 오후 11.09.46.png",
+    "attachments/os/스크린샷 2023-10-17 오후 2.16.01.png",
+    "attachments/os/스크린샷 2023-10-17 오후 2.21.42.png",
+    "attachments/os/스크린샷 2023-10-17 오후 3.12.03.png",
+    "attachments/os/스크린샷 2023-10-17 오후 3.50.11.png",
+    "attachments/os/스크린샷 2023-10-18 오전 11.59.04.png",
+    "attachments/os/스크린샷 2023-10-18 오전 11.59.29.png",
+    "attachments/os/스크린샷 2023-10-18 오후 3.44.46.png",
+    "attachments/os/스크린샷 2023-10-18 오후 4.30.01.png",
+    "attachments/os/스크린샷 2023-10-18 오후 5.49.34.png",
+    "attachments/os/스크린샷 2023-10-18 오후 8.21.07.png",
+    "attachments/os/스크린샷 2023-10-18 오후 8.21.33.png",
+    "attachments/os/스크린샷 2023-10-18 오후 12.48.41.png",
+    "attachments/os/스크린샷 2023-10-19 오전 11.43.16.png",
+    "attachments/os/스크린샷 2023-10-19 오후 4.12.21.png",
+    "attachments/os/스크린샷 2023-10-19 오후 4.43.53.png",
+    "attachments/os/스크린샷 2023-10-19 오후 5.12.45.png",
+    "attachments/os/스크린샷 2023-10-19 오후 5.26.37.png",
+    "attachments/os/스크린샷 2023-10-19 오후 10.06.38.png",
+    "attachments/os/스크린샷 2023-10-19 오후 10.50.03.png",
+    "attachments/os/스크린샷 2023-10-19 오후 11.19.34.png",
+    "attachments/os/스크린샷 2023-10-20 오후 1.39.30.png",
+    "attachments/os/스크린샷 2023-10-20 오후 1.40.00.png",
+    "attachments/os/스크린샷 2023-10-20 오후 3.38.22.png",
+    "attachments/os/스크린샷 2023-10-20 오후 3.44.13.png",
+    "attachments/os/스크린샷 2023-10-20 오후 12.27.51.png",
+    "attachments/os/스크린샷 2023-11-09 오전 11.32.06.png",
+    "attachments/os/Pasted image 20231007190405.png",
+    "attachments/os/Pasted image 20231007192246.png",
+    "attachments/os/Pasted image 20231012160051.png",
+    "attachments/os/Pasted image 20231012173006.png",
+    "attachments/os/Pasted image 20231012231241.png",
+    "attachments/os/Pasted image 20231018145703.png",
+    "attachments/os/Pasted image 20231018145716.png",
+    "attachments/os/Pasted image 20231018153251.png",
+    "attachments/os/Pasted image 20231018162540.png",
+    "attachments/os/Pasted image 20231018162640.png",
+    "attachments/os/Pasted image 20231019130102.png",
+    "attachments/os/Pasted image 20231019221808.png",
+    "attachments/os/Pasted image 20231020141516.png",
+    "attachments/os/Pasted image 20231020164426.png",
+    "attachments/os/Pasted image 20231020164430.png",
+    "attachments/os/Pasted image 20231020164503.png",
+    "attachments/os/Pasted image 20231020164506.png",
+    "attachments/os/Pasted image 20231020164538.png",
+    "attachments/os/Pasted image 20231020215116.png",
+    "attachments/스크린샷 2023-12-01 오후 10.04.17.png",
+    "attachments/스크린샷 2023-12-05 오후 8.14.50.png",
+    "attachments/스크린샷 2023-12-05 오후 8.58.05.png",
+    "attachments/스크린샷 2023-12-05 오후 11.48.03.png",
+    "attachments/스크린샷 2023-12-05 오후 11.59.13.png",
+    "attachments/스크린샷 2023-12-06 오전 12.12.26.png",
+    "attachments/스크린샷 2023-12-06 오전 12.15.34.png",
+    "attachments/스크린샷 2023-12-06 오전 12.34.37.png",
+    "attachments/스크린샷 2023-12-06 오후 1.52.05.png",
+    "attachments/스크린샷 2023-12-06 오후 2.16.06.png",
+    "attachments/스크린샷 2023-12-06 오후 3.59.45.png",
+    "attachments/스크린샷 2023-12-08 오전 12.16.21.png",
+    "attachments/스크린샷 2023-12-08 오전 12.21.48.png",
+    "attachments/스크린샷 2023-12-08 오후 4.14.33.png",
+    "attachments/스크린샷 2023-12-08 오후 4.36.42.png",
+    "attachments/스크린샷 2023-12-08 오후 4.51.40.png",
+    "attachments/스크린샷 2023-12-08 오후 4.58.44.png",
+    "attachments/스크린샷 2023-12-08 오후 5.20.19.png",
+    "attachments/스크린샷 2023-12-08 오후 5.30.38.png",
+    "attachments/스크린샷 2023-12-22 오후 2.59.53.png",
+    "attachments/스크린샷 2023-12-29 오후 5.17.25.png",
+    "attachments/스크린샷 2023-12-29 오후 5.18.50.png",
+    "attachments/스크린샷 2023-12-29 오후 5.19.23.png",
+    "attachments/스크린샷 2023-12-29 오후 5.19.40.png",
+    "attachments/스크린샷 2023-12-29 오후 5.20.07.png",
+    "attachments/스크린샷 2024-01-02 오후 6.14.17.png",
+    "attachments/스크린샷 2024-01-02 오후 6.17.35.png",
+    "attachments/스크린샷 2024-02-13 오후 2.41.28.png",
+    "attachments/스크린샷 2024-02-13 오후 2.47.33.png",
+    "attachments/images_gil0127_post_813ea794-6eef-40b4-8042-09a8551082fd_multi.gif",
+    "attachments/images_gil0127_post_e77bf094-c662-48ac-ad2e-530d9bd0f781_single.gif",
+    "attachments/Pasted image 20231110165126.png",
+    "attachments/Pasted image 20231110233821.png",
+    "attachments/Pasted image 20231110233821 1.png",
+    "attachments/Pasted image 20231111012342.png",
+    "attachments/Pasted image 20231117142819.png",
+    "attachments/Pasted image 20231117143127.png",
+    "attachments/Pasted image 20231117143317.png",
+    "attachments/Pasted image 20231117143710.png",
+    "attachments/Pasted image 20231117144006.png",
+    "attachments/Pasted image 20231117144031.png",
+    "attachments/Pasted image 20231117144734.png",
+    "attachments/Pasted image 20231117211342.png",
+    "attachments/Pasted image 20231117211847.png",
+    "attachments/Pasted image 20231117212108.png",
+    "attachments/Pasted image 20231117212546.png",
+    "attachments/Pasted image 20231117214139.png",
+    "attachments/Pasted image 20231117214549.png",
+    "attachments/Pasted image 20231117214830.png",
+    "attachments/Pasted image 20231117224311.png",
+    "attachments/Pasted image 20231117224554.png",
+    "attachments/Pasted image 20231117224804.png",
+    "attachments/Pasted image 20231121183520.png",
+    "attachments/Pasted image 20231121183535.png",
+    "attachments/Pasted image 20231201220343.png",
+    "attachments/Pasted image 20231201223133.png",
+    "attachments/Pasted image 20231205145604.png",
+    "attachments/Pasted image 20231205152643.png",
+    "attachments/Pasted image 20231205161425.png",
+    "attachments/Pasted image 20231206000130.png",
+    "attachments/Pasted image 20231206000133.png",
+    "attachments/Pasted image 20231206195050.png",
+    "attachments/Pasted image 20231206205109.png",
+    "attachments/Pasted image 20231206214851.png",
+    "attachments/Pasted image 20231206215006.png",
+    "attachments/Pasted image 20231206215211.png",
+    "attachments/Pasted image 20231207105614.png",
+    "attachments/Pasted image 20231207110006.png",
+    "attachments/Pasted image 20231207111844.png",
+    "attachments/Pasted image 20231207114611.png",
+    "attachments/Pasted image 20231207133231.png",
+    "attachments/Pasted image 20231207173313.png",
+    "attachments/Pasted image 20231207175433.png",
+    "attachments/Pasted image 20231207190106.png",
+    "attachments/Pasted image 20231207232002.png",
+    "attachments/Pasted image 20231207232819.png",
+    "attachments/Pasted image 20231208001917.png",
+    "attachments/Pasted image 20231208114540.png",
+    "attachments/Pasted image 20231208180820.png",
+    "attachments/Pasted image 20231208180840.png",
+    "attachments/Pasted image 20231208180856.png",
+    "attachments/Pasted image 20231208180930.png",
+    "attachments/Pasted image 20231221150813.png",
+    "attachments/Pasted image 20231221151511.png",
+    "attachments/Pasted image 20231221161650.png",
+    "attachments/Pasted image 20231221162024.png",
+    "attachments/Pasted image 20231221162631.png",
+    "attachments/Pasted image 20231221163733.png",
+    "attachments/Pasted image 20231221165236.png",
+    "attachments/Pasted image 20231221165449.png",
+    "attachments/Pasted image 20231221165741.png",
+    "attachments/Pasted image 20231221170543.png",
+    "attachments/Pasted image 20231221171002.png",
+    "attachments/Pasted image 20231222120341.png",
+    "attachments/Pasted image 20231222132856.png",
+    "attachments/Pasted image 20231222133021.png",
+    "attachments/Pasted image 20231222133637.png",
+    "attachments/Pasted image 20231222140805.png",
+    "attachments/Pasted image 20231222172040.png",
+    "attachments/Pasted image 20231222173337.png",
+    "attachments/Pasted image 20231222181115.png",
+    "attachments/Pasted image 20231222182937.png",
+    "attachments/Pasted image 20231222183834.png",
+    "attachments/Pasted image 20231227160835.png",
+    "attachments/Pasted image 20231227161028.png",
+    "attachments/Pasted image 20231227161358.png",
+    "attachments/Pasted image 20231227165039.png",
+    "attachments/Pasted image 20231227165628.png",
+    "attachments/Pasted image 20231227184550.png",
+    "attachments/Pasted image 20231227185850.png",
+    "attachments/Pasted image 20231227190114.png",
+    "attachments/Pasted image 20231229143613.png",
+    "attachments/Pasted image 20231229144049.png",
+    "attachments/Pasted image 20231229174122.png",
+    "attachments/Pasted image 20231229174528.png",
+    "attachments/Pasted image 20240102171614.png",
+    "attachments/Pasted image 20240102174925.png",
+    "attachments/Pasted image 20240104135225.png",
+    "attachments/Pasted image 20240104144405.png",
+    "attachments/Pasted image 20240110152152.png",
+    "attachments/Pasted image 20240115160611.png",
+    "attachments/Pasted image 20240115161637.png",
+    "attachments/Pasted image 20240120225523.png",
+    "attachments/Pasted image 20240213150602.png",
+    "attachments/Pasted image 20240228161847.png",
+    "attachments/Pasted image 20240228161957.png",
+    "attachments/Pasted image 20240229112944.png",
+    "attachments/Pasted image 20240229142303.png",
+    "attachments/Pasted image 20240229144113.png",
+    "attachments/Pasted image 20240229150208.png",
+    "attachments/Pasted image 20240229150717.png",
+    "attachments/Pasted image 20240229150834.png",
+    "attachments/Pasted image 20240229152120.png",
+    "attachments/Pasted image 20240229152445.png",
+    "attachments/Pasted image 20240229152549.png",
+    "attachments/Pasted image 20240229152637.png",
+    "aws/S3.md",
+    "django/뷰와 URL conf.md",
+    "django/장고 모델.md",
+    "django/장고 모델 (2).md",
+    "django/장고 어드민.md",
+    "django/장고 입문.md",
+    "django/장고 템플릿.md",
+    "network/code/__pycache__/test.cpython-39.pyc",
+    "network/code/http/assignemnet/404.html",
+    "network/code/http/assignemnet/500.html",
+    "network/code/http/assignemnet/503.html",
+    "network/code/http/assignemnet/article1.html",
+    "network/code/http/assignemnet/article2.html",
+    "network/code/http/assignemnet/async_server.py",
+    "network/code/http/assignemnet/CA.pem",
+    "network/code/http/assignemnet/client.py",
+    "network/code/http/assignemnet/index.html",
+    "network/code/http/assignemnet/server.py",
+    "network/code/http/assignemnet/server.key",
+    "network/code/http/assignemnet/server.crt",
+    "network/code/http/cgi/cgi-bin/add.py",
+    "network/code/http/cgi/cgi-bin/post.py",
+    "network/code/http/cgi/server.py",
+    "network/code/http/chunk_test/__pycache__/main.cpython-310.pyc",
+    "network/code/http/chunk_test/client.py",
+    "network/code/http/chunk_test/main.py",
+    "network/code/http/chunk_test/test.gif",
+    "network/code/http/wsgi/simple_wsgi.py",
+    "network/code/http/reuse_connection.py",
+    "network/code/multy_chat/multy_client.dSYM/Contents/Resources/DWARF/multy_client",
+    "network/code/multy_chat/multy_client.dSYM/Contents/Info.plist",
+    "network/code/multy_chat/multy_server.dSYM/Contents/Resources/DWARF/multy_server",
+    "network/code/multy_chat/multy_server.dSYM/Contents/Info.plist",
+    "network/code/multy_chat/a.out",
+    "network/code/multy_chat/client",
+    "network/code/multy_chat/multy_client.c",
+    "network/code/multy_chat/multy_server.c",
+    "network/code/multy_chat/server",
+    "network/code/tcp/tcp_blocking_server.c",
+    "network/code/tcp/tcp_client.py",
+    "network/code/tcp/tcp_server.py",
+    "network/code/udp/a.out",
+    "network/code/udp/client.c",
+    "network/code/udp/server.c",
+    "network/code/multy_server.py",
+    "network/code/test.py",
+    "network/code/view_cookies.py",
+    "network/게이트웨이.md",
+    "network/네트워크 첫 걸음.md",
+    "network/데이터 단위.md",
+    "network/라우터 알아보기.md",
+    "network/소켓.md",
+    "network/웹서버와 nginx.md",
+    "network/이더넷 톺아보기.md",
+    "network/초 간단 웹서버 만들고 실험하기.md",
+    "network/커넥션 풀이란.md",
+    "network/쿠키와 세션.md",
+    "network/CGI.md",
+    "network/DHCP.md",
+    "network/FQDN.md",
+    "network/HTTP  메서드.md",
+    "network/HTTP 개관.md",
+    "network/HTTP 메시지.md",
+    "network/HTTP Chunk VS Content-Length.md",
+    "network/HTTP Connection.md",
+    "network/HTTPS.md",
+    "network/IP 계층 첫 걸음.md",
+    "network/MAC 계층.md",
+    "network/NAT.md",
+    "network/SDN.md",
+    "network/SSH를 알아보자.md",
+    "network/Stateful과 Stateless.md",
+    "network/TCP 첫 걸음.md",
+    "network/TCP 혼잡 제어.md",
+    "network/TCP는 커널에서 처리한다.md",
+    "network/TCP의 흐름 제어.md",
+    "network/UDP 톺아보기 (+TCP와 차이).md",
+    "network/URL.md",
+    "network/WSGI.md",
+    "opensource/urllib3/HTTP 커넥션의 response (3).md",
+    "opensource/urllib3/HTTP Connection 딮다이브 (2).md",
+    "opensource/urllib3/HTTPConnection 부터 send까지 (1).md",
+    "opensource/urllib3/PoolManager.request 분석하기.md",
+    "opensource/urllib3/Readme.md",
+    "os/code/async/async_await.py",
+    "os/code/async/async_task.py",
+    "os/code/async/async1.py",
+    "os/code/epoll/a.out",
+    "os/code/epoll/client.c",
+    "os/code/epoll/dockerfile",
+    "os/code/epoll/loop_client.c",
+    "os/code/epoll/loop_server.c",
+    "os/code/epoll/server.c",
+    "os/code/ipc/message_pass_recv.c",
+    "os/code/ipc/message_pass_sender.c",
+    "os/code/ipc/recv",
+    "os/code/ipc/send",
+    "os/code/process/exec_test.c",
+    "os/code/process/fork_test.c",
+    "os/code/process/orphan",
+    "os/code/process/orphan.c",
+    "os/code/process/wait_test.c",
+    "os/code/process/zombie_test.c",
+    "os/code/sync_async/async_test.dSYM/Contents/Resources/DWARF/async_test",
+    "os/code/sync_async/async_test.dSYM/Contents/Info.plist",
+    "os/code/sync_async/async.dSYM/Contents/Resources/DWARF/async",
+    "os/code/sync_async/async.dSYM/Contents/Info.plist",
+    "os/code/sync_async/select_practice.dSYM/Contents/Resources/DWARF/select_practice",
+    "os/code/sync_async/select_practice.dSYM/Contents/Info.plist",
+    "os/code/sync_async/a.out",
+    "os/code/sync_async/async",
+    "os/code/sync_async/async_multy_io.py",
+    "os/code/sync_async/async_test.c",
+    "os/code/sync_async/await.py",
+    "os/code/sync_async/busy_wait_select.py",
+    "os/code/sync_async/busy_wait_timeout.py",
+    "os/code/sync_async/event_timeout.py",
+    "os/code/sync_async/file.txt",
+    "os/code/sync_async/large.txt",
+    "os/code/sync_async/select_practice.c",
+    "os/code/sync_async/small.txt",
+    "os/code/sync_async/sync.c",
+    "os/code/sync_async/sync_non_block",
+    "os/code/syscall/simple_print.c",
+    "os/code/syscall/syscall_overhead.c",
+    "os/code/thread/__pycache__/main.cpython-310.pyc",
+    "os/code/thread/thread_high_compute.dSYM/Contents/Resources/DWARF/thread_high_compute",
+    "os/code/thread/thread_high_compute.dSYM/Contents/Info.plist",
+    "os/code/thread/a.out",
+    "os/code/thread/main.py",
+    "os/code/thread/thread_atomic.c",
+    "os/code/thread/thread_high_compute.c",
+    "os/code/thread/thread_io.c",
+    "os/code/thread/thread_race.c",
+    "os/code/thread/thread_test",
+    "os/가상 메모리.md",
+    "os/데드락.md",
+    "os/동기와 비동기 (Blocking, None-Blocking).md",
+    "os/동기화.md",
+    "os/멀티 스레딩.md",
+    "os/메모리.md",
+    "os/스케줄러.md",
+    "os/스케쥴링 기법.md",
+    "os/시스템 콜.md",
+    "os/쓰레드.md",
+    "os/이벤트 루프.md",
+    "os/커널.md",
+    "os/파일 시스템.md",
+    "os/프로세스.md",
+    "os/Async,Await.md",
+    "os/Inter Process Communication.md",
+    "os/IO Multiplexing.md",
+    "output/mod/arguments.yml",
+    "output/mod/capabilities.json",
+    "output/mod/config.yml",
+    "output/mod/guid.txt",
+    "output/mod/modfile_dependencies.json",
+    "output/mod/user_config.yml",
+    "portfolio/정명진.md",
+    "portfolio/정명진 포트폴리오.md",
+    "python/code/raise_from.py",
+    "python/정리할 파이썬 토픽.md",
+    "python/파이썬의 우아한 예외처리.md",
+    "config.yaml",
+    "entry.md",
+    "README.md",
+    "lib/media/pasted-image-20231229174122.png",
+    "lib/media/pasted-image-20231229143613.png",
+    "lib/media/pasted-image-20231229144049.png",
+    "lib/media/pasted-image-20231229174528.png",
+    "lib/media/스크린샷-2023-12-29-오후-5.17.25.png",
+    "lib/media/스크린샷-2023-12-29-오후-5.18.50.png",
+    "lib/media/스크린샷-2023-12-29-오후-5.19.40.png",
+    "lib/media/스크린샷-2023-12-29-오후-5.20.07.png",
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/other-plugins.css",
+    "lib/styles/theme.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/supported-plugins.css",
+    "lib/styles/main-styles.css",
+    "lib/styles/snippets.css"
+  ],
+  "mainDependencies": [
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/other-plugins.css",
+    "lib/styles/theme.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/supported-plugins.css",
+    "lib/styles/main-styles.css",
+    "lib/styles/snippets.css"
+  ],
+  "fileInfo": {
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_zero.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1368,
+      "exportedPath": "lib/fonts/mathjax_zero.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_main-regular.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 34160,
+      "exportedPath": "lib/fonts/mathjax_main-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_main-bold.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 34464,
+      "exportedPath": "lib/fonts/mathjax_main-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_math-italic.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 19360,
+      "exportedPath": "lib/fonts/mathjax_math-italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_main-italic.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 20832,
+      "exportedPath": "lib/fonts/mathjax_main-italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_math-bolditalic.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 19776,
+      "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size1-regular.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 5792,
+      "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size2-regular.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 5464,
+      "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size3-regular.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 3244,
+      "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size4-regular.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 5148,
+      "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_ams-regular.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 40808,
+      "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_calligraphic-regular.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 9600,
+      "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_calligraphic-bold.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 9908,
+      "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_fraktur-regular.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 21480,
+      "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_fraktur-bold.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 22340,
+      "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_sansserif-regular.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 12660,
+      "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_sansserif-bold.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 15944,
+      "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_sansserif-italic.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 14628,
+      "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_script-regular.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 11852,
+      "exportedPath": "lib/fonts/mathjax_script-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_typewriter-regular.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 17604,
+      "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_vector-regular.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1136,
+      "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_vector-bold.woff": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1116,
+      "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 402488,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 4005,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 130208,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/other-plugins.css": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 55974,
+      "exportedPath": "lib/styles/other-plugins.css",
+      "dependencies": []
+    },
+    "lib/styles/theme.css": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 396498,
+      "exportedPath": "lib/styles/theme.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 236,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/supported-plugins.css": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 2836,
+      "exportedPath": "lib/styles/supported-plugins.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/snippets.css": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 5582,
+      "exportedPath": "lib/styles/snippets.css",
+      "dependencies": []
+    },
+    "algorithm/투 포인터.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 8787,
+      "exportedPath": "algorithm/투-포인터.html",
+      "dependencies": []
+    },
+    "algorithm/DFS.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 23029,
+      "exportedPath": "algorithm/dfs.html",
+      "dependencies": []
+    },
+    "algorithm/DP.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 7634,
+      "exportedPath": "algorithm/dp.html",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/지선의/article1.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 169,
+      "exportedPath": "assignment/network/http/simple_webserver/지선의/article1.html",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/지선의/article2.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 161,
+      "exportedPath": "assignment/network/http/simple_webserver/지선의/article2.html",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/지선의/article3.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 161,
+      "exportedPath": "assignment/network/http/simple_webserver/지선의/article3.html",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/지선의/index.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 294,
+      "exportedPath": "assignment/network/http/simple_webserver/지선의/index.html",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/지선의/server.cpp": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 6199,
+      "exportedPath": "assignment/network/http/simple_webserver/지선의/server.cpp",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/nayoung/article1.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 180,
+      "exportedPath": "assignment/network/http/simple_webserver/nayoung/article1.html",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/nayoung/article2.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 181,
+      "exportedPath": "assignment/network/http/simple_webserver/nayoung/article2.html",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/nayoung/article3.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 180,
+      "exportedPath": "assignment/network/http/simple_webserver/nayoung/article3.html",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/nayoung/client.js": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 772,
+      "exportedPath": "assignment/network/http/simple_webserver/nayoung/client.js",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/nayoung/index.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 276,
+      "exportedPath": "assignment/network/http/simple_webserver/nayoung/index.html",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/nayoung/server.js": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1613,
+      "exportedPath": "assignment/network/http/simple_webserver/nayoung/server.js",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/ym/src/article1.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1429,
+      "exportedPath": "assignment/network/http/simple_webserver/ym/src/article1.html",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/ym/src/article2.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 126,
+      "exportedPath": "assignment/network/http/simple_webserver/ym/src/article2.html",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/ym/src/article3.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 126,
+      "exportedPath": "assignment/network/http/simple_webserver/ym/src/article3.html",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/ym/src/index.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1854,
+      "exportedPath": "assignment/network/http/simple_webserver/ym/src/index.html",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/ym/homework_client.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1631,
+      "exportedPath": "assignment/network/http/simple_webserver/ym/homework_client.py",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/ym/homework_server.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 2733,
+      "exportedPath": "assignment/network/http/simple_webserver/ym/homework_server.py",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/yujin/article1.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 316,
+      "exportedPath": "assignment/network/http/simple_webserver/yujin/article1.html",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/yujin/article2.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 316,
+      "exportedPath": "assignment/network/http/simple_webserver/yujin/article2.html",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/yujin/article3.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 316,
+      "exportedPath": "assignment/network/http/simple_webserver/yujin/article3.html",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/yujin/client.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1445,
+      "exportedPath": "assignment/network/http/simple_webserver/yujin/client.py",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/yujin/index.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 516,
+      "exportedPath": "assignment/network/http/simple_webserver/yujin/index.html",
+      "dependencies": []
+    },
+    "assignment/network/http/simple_webserver/yujin/server.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1630,
+      "exportedPath": "assignment/network/http/simple_webserver/yujin/server.py",
+      "dependencies": []
+    },
+    "assignment/network/http/싱글 스레드 기반의 초간단 정적 웹서버 만들기.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 3188,
+      "exportedPath": "assignment/network/http/싱글-스레드-기반의-초간단-정적-웹서버-만들기.html",
+      "dependencies": []
+    },
+    "assignment/os/thread/assign2_seoneui/tcp_echo_client.cpp": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1853,
+      "exportedPath": "assignment/os/thread/assign2_seoneui/tcp_echo_client.cpp",
+      "dependencies": []
+    },
+    "assignment/os/thread/assign2_seoneui/tcp_echo_server.cpp": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 2649,
+      "exportedPath": "assignment/os/thread/assign2_seoneui/tcp_echo_server.cpp",
+      "dependencies": []
+    },
+    "assignment/os/thread/assign2_seoneui/udp_echo_client.cpp": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 2051,
+      "exportedPath": "assignment/os/thread/assign2_seoneui/udp_echo_client.cpp",
+      "dependencies": []
+    },
+    "assignment/os/thread/assign2_seoneui/udp_echo_server.cpp": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 2298,
+      "exportedPath": "assignment/os/thread/assign2_seoneui/udp_echo_server.cpp",
+      "dependencies": []
+    },
+    "assignment/os/thread/assignment3_beomsu/Main.java": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 380,
+      "exportedPath": "assignment/os/thread/assignment3_beomsu/main.java",
+      "dependencies": []
+    },
+    "assignment/os/thread/assignment3_beomsu/MyThread.java": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 956,
+      "exportedPath": "assignment/os/thread/assignment3_beomsu/mythread.java",
+      "dependencies": []
+    },
+    "assignment/os/thread/assign1_hwangon.py.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1133,
+      "exportedPath": "assignment/os/thread/assign1_hwangon.py.html",
+      "dependencies": []
+    },
+    "assignment/assign1_yujin.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 686,
+      "exportedPath": "assignment/assign1_yujin.py",
+      "dependencies": []
+    },
+    "attachments/network/ethernet/Pasted image 20231011140038.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 21116,
+      "exportedPath": "attachments/network/ethernet/pasted-image-20231011140038.png",
+      "dependencies": []
+    },
+    "attachments/network/ethernet/Pasted image 20231011150941.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 12898,
+      "exportedPath": "attachments/network/ethernet/pasted-image-20231011150941.png",
+      "dependencies": []
+    },
+    "attachments/network/ethernet/Pasted image 20231011151641.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 18564,
+      "exportedPath": "attachments/network/ethernet/pasted-image-20231011151641.png",
+      "dependencies": []
+    },
+    "attachments/network/ethernet/Pasted image 20231011152502.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 101333,
+      "exportedPath": "attachments/network/ethernet/pasted-image-20231011152502.png",
+      "dependencies": []
+    },
+    "attachments/network/ethernet/Pasted image 20231011170147.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 42982,
+      "exportedPath": "attachments/network/ethernet/pasted-image-20231011170147.png",
+      "dependencies": []
+    },
+    "attachments/network/Pasted image 20231004174458.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 54704,
+      "exportedPath": "attachments/network/pasted-image-20231004174458.png",
+      "dependencies": []
+    },
+    "attachments/os/2023-10-16_12.13.08.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 28727,
+      "exportedPath": "attachments/os/2023-10-16_12.13.08.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-06 오후 4.58.02.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 61431,
+      "exportedPath": "attachments/os/스크린샷-2023-10-06-오후-4.58.02.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-12 오후 4.46.08.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 252323,
+      "exportedPath": "attachments/os/스크린샷-2023-10-12-오후-4.46.08.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-13 오전 11.44.37.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 17600,
+      "exportedPath": "attachments/os/스크린샷-2023-10-13-오전-11.44.37.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-15 오후 3.03.49.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 6441,
+      "exportedPath": "attachments/os/스크린샷-2023-10-15-오후-3.03.49.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-15 오후 6.35.01.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 204600,
+      "exportedPath": "attachments/os/스크린샷-2023-10-15-오후-6.35.01.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-16 오후 2.01.59.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 70002,
+      "exportedPath": "attachments/os/스크린샷-2023-10-16-오후-2.01.59.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-16 오후 4.32.40.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1207035,
+      "exportedPath": "attachments/os/스크린샷-2023-10-16-오후-4.32.40.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-16 오후 10.20.51.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 547920,
+      "exportedPath": "attachments/os/스크린샷-2023-10-16-오후-10.20.51.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-16 오후 10.48.40.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 124663,
+      "exportedPath": "attachments/os/스크린샷-2023-10-16-오후-10.48.40.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-16 오후 11.09.46.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 108002,
+      "exportedPath": "attachments/os/스크린샷-2023-10-16-오후-11.09.46.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-17 오후 2.16.01.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 43361,
+      "exportedPath": "attachments/os/스크린샷-2023-10-17-오후-2.16.01.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-17 오후 2.21.42.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 21186,
+      "exportedPath": "attachments/os/스크린샷-2023-10-17-오후-2.21.42.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-17 오후 3.12.03.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 86827,
+      "exportedPath": "attachments/os/스크린샷-2023-10-17-오후-3.12.03.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-17 오후 3.50.11.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 42550,
+      "exportedPath": "attachments/os/스크린샷-2023-10-17-오후-3.50.11.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-18 오전 11.59.04.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 171757,
+      "exportedPath": "attachments/os/스크린샷-2023-10-18-오전-11.59.04.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-18 오전 11.59.29.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 165578,
+      "exportedPath": "attachments/os/스크린샷-2023-10-18-오전-11.59.29.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-18 오후 3.44.46.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 86718,
+      "exportedPath": "attachments/os/스크린샷-2023-10-18-오후-3.44.46.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-18 오후 4.30.01.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 110486,
+      "exportedPath": "attachments/os/스크린샷-2023-10-18-오후-4.30.01.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-18 오후 5.49.34.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 153215,
+      "exportedPath": "attachments/os/스크린샷-2023-10-18-오후-5.49.34.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-18 오후 8.21.07.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 90209,
+      "exportedPath": "attachments/os/스크린샷-2023-10-18-오후-8.21.07.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-18 오후 8.21.33.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 185825,
+      "exportedPath": "attachments/os/스크린샷-2023-10-18-오후-8.21.33.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-18 오후 12.48.41.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 35617,
+      "exportedPath": "attachments/os/스크린샷-2023-10-18-오후-12.48.41.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-19 오전 11.43.16.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 60660,
+      "exportedPath": "attachments/os/스크린샷-2023-10-19-오전-11.43.16.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-19 오후 4.12.21.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 156337,
+      "exportedPath": "attachments/os/스크린샷-2023-10-19-오후-4.12.21.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-19 오후 4.43.53.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 189250,
+      "exportedPath": "attachments/os/스크린샷-2023-10-19-오후-4.43.53.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-19 오후 5.12.45.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 150167,
+      "exportedPath": "attachments/os/스크린샷-2023-10-19-오후-5.12.45.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-19 오후 5.26.37.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 68688,
+      "exportedPath": "attachments/os/스크린샷-2023-10-19-오후-5.26.37.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-19 오후 10.06.38.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 231206,
+      "exportedPath": "attachments/os/스크린샷-2023-10-19-오후-10.06.38.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-19 오후 10.50.03.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 356604,
+      "exportedPath": "attachments/os/스크린샷-2023-10-19-오후-10.50.03.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-19 오후 11.19.34.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 199387,
+      "exportedPath": "attachments/os/스크린샷-2023-10-19-오후-11.19.34.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-20 오후 1.39.30.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 45639,
+      "exportedPath": "attachments/os/스크린샷-2023-10-20-오후-1.39.30.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-20 오후 1.40.00.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 48438,
+      "exportedPath": "attachments/os/스크린샷-2023-10-20-오후-1.40.00.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-20 오후 3.38.22.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 172377,
+      "exportedPath": "attachments/os/스크린샷-2023-10-20-오후-3.38.22.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-20 오후 3.44.13.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 176119,
+      "exportedPath": "attachments/os/스크린샷-2023-10-20-오후-3.44.13.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-10-20 오후 12.27.51.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 117546,
+      "exportedPath": "attachments/os/스크린샷-2023-10-20-오후-12.27.51.png",
+      "dependencies": []
+    },
+    "attachments/os/스크린샷 2023-11-09 오전 11.32.06.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 40960,
+      "exportedPath": "attachments/os/스크린샷-2023-11-09-오전-11.32.06.png",
+      "dependencies": []
+    },
+    "attachments/os/Pasted image 20231007190405.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 356101,
+      "exportedPath": "attachments/os/pasted-image-20231007190405.png",
+      "dependencies": []
+    },
+    "attachments/os/Pasted image 20231007192246.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 24589,
+      "exportedPath": "attachments/os/pasted-image-20231007192246.png",
+      "dependencies": []
+    },
+    "attachments/os/Pasted image 20231012160051.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 20072,
+      "exportedPath": "attachments/os/pasted-image-20231012160051.png",
+      "dependencies": []
+    },
+    "attachments/os/Pasted image 20231012173006.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 25424,
+      "exportedPath": "attachments/os/pasted-image-20231012173006.png",
+      "dependencies": []
+    },
+    "attachments/os/Pasted image 20231012231241.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 52650,
+      "exportedPath": "attachments/os/pasted-image-20231012231241.png",
+      "dependencies": []
+    },
+    "attachments/os/Pasted image 20231018145703.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 12612,
+      "exportedPath": "attachments/os/pasted-image-20231018145703.png",
+      "dependencies": []
+    },
+    "attachments/os/Pasted image 20231018145716.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 12983,
+      "exportedPath": "attachments/os/pasted-image-20231018145716.png",
+      "dependencies": []
+    },
+    "attachments/os/Pasted image 20231018153251.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 69995,
+      "exportedPath": "attachments/os/pasted-image-20231018153251.png",
+      "dependencies": []
+    },
+    "attachments/os/Pasted image 20231018162540.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 14706,
+      "exportedPath": "attachments/os/pasted-image-20231018162540.png",
+      "dependencies": []
+    },
+    "attachments/os/Pasted image 20231018162640.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 17209,
+      "exportedPath": "attachments/os/pasted-image-20231018162640.png",
+      "dependencies": []
+    },
+    "attachments/os/Pasted image 20231019130102.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 448019,
+      "exportedPath": "attachments/os/pasted-image-20231019130102.png",
+      "dependencies": []
+    },
+    "attachments/os/Pasted image 20231019221808.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 125144,
+      "exportedPath": "attachments/os/pasted-image-20231019221808.png",
+      "dependencies": []
+    },
+    "attachments/os/Pasted image 20231020141516.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 40497,
+      "exportedPath": "attachments/os/pasted-image-20231020141516.png",
+      "dependencies": []
+    },
+    "attachments/os/Pasted image 20231020164426.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 7389,
+      "exportedPath": "attachments/os/pasted-image-20231020164426.png",
+      "dependencies": []
+    },
+    "attachments/os/Pasted image 20231020164430.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 7389,
+      "exportedPath": "attachments/os/pasted-image-20231020164430.png",
+      "dependencies": []
+    },
+    "attachments/os/Pasted image 20231020164503.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 10197,
+      "exportedPath": "attachments/os/pasted-image-20231020164503.png",
+      "dependencies": []
+    },
+    "attachments/os/Pasted image 20231020164506.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 10197,
+      "exportedPath": "attachments/os/pasted-image-20231020164506.png",
+      "dependencies": []
+    },
+    "attachments/os/Pasted image 20231020164538.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 7513,
+      "exportedPath": "attachments/os/pasted-image-20231020164538.png",
+      "dependencies": []
+    },
+    "attachments/os/Pasted image 20231020215116.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 8382,
+      "exportedPath": "attachments/os/pasted-image-20231020215116.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-01 오후 10.04.17.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1893808,
+      "exportedPath": "attachments/스크린샷-2023-12-01-오후-10.04.17.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-05 오후 8.14.50.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 106922,
+      "exportedPath": "attachments/스크린샷-2023-12-05-오후-8.14.50.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-05 오후 8.58.05.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 101521,
+      "exportedPath": "attachments/스크린샷-2023-12-05-오후-8.58.05.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-05 오후 11.48.03.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 118078,
+      "exportedPath": "attachments/스크린샷-2023-12-05-오후-11.48.03.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-05 오후 11.59.13.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 42487,
+      "exportedPath": "attachments/스크린샷-2023-12-05-오후-11.59.13.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-06 오전 12.12.26.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 38146,
+      "exportedPath": "attachments/스크린샷-2023-12-06-오전-12.12.26.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-06 오전 12.15.34.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 80511,
+      "exportedPath": "attachments/스크린샷-2023-12-06-오전-12.15.34.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-06 오전 12.34.37.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 38420,
+      "exportedPath": "attachments/스크린샷-2023-12-06-오전-12.34.37.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-06 오후 1.52.05.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 50671,
+      "exportedPath": "attachments/스크린샷-2023-12-06-오후-1.52.05.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-06 오후 2.16.06.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 53798,
+      "exportedPath": "attachments/스크린샷-2023-12-06-오후-2.16.06.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-06 오후 3.59.45.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 79864,
+      "exportedPath": "attachments/스크린샷-2023-12-06-오후-3.59.45.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-08 오전 12.16.21.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 153617,
+      "exportedPath": "attachments/스크린샷-2023-12-08-오전-12.16.21.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-08 오전 12.21.48.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 36901,
+      "exportedPath": "attachments/스크린샷-2023-12-08-오전-12.21.48.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-08 오후 4.14.33.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 362765,
+      "exportedPath": "attachments/스크린샷-2023-12-08-오후-4.14.33.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-08 오후 4.36.42.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 201563,
+      "exportedPath": "attachments/스크린샷-2023-12-08-오후-4.36.42.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-08 오후 4.51.40.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 371944,
+      "exportedPath": "attachments/스크린샷-2023-12-08-오후-4.51.40.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-08 오후 4.58.44.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 41773,
+      "exportedPath": "attachments/스크린샷-2023-12-08-오후-4.58.44.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-08 오후 5.20.19.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 421556,
+      "exportedPath": "attachments/스크린샷-2023-12-08-오후-5.20.19.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-08 오후 5.30.38.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 352877,
+      "exportedPath": "attachments/스크린샷-2023-12-08-오후-5.30.38.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-22 오후 2.59.53.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 19810,
+      "exportedPath": "attachments/스크린샷-2023-12-22-오후-2.59.53.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-29 오후 5.17.25.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 19345,
+      "exportedPath": "attachments/스크린샷-2023-12-29-오후-5.17.25.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-29 오후 5.18.50.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 48861,
+      "exportedPath": "attachments/스크린샷-2023-12-29-오후-5.18.50.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-29 오후 5.19.23.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 49430,
+      "exportedPath": "attachments/스크린샷-2023-12-29-오후-5.19.23.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-29 오후 5.19.40.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 21522,
+      "exportedPath": "attachments/스크린샷-2023-12-29-오후-5.19.40.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2023-12-29 오후 5.20.07.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 12959,
+      "exportedPath": "attachments/스크린샷-2023-12-29-오후-5.20.07.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2024-01-02 오후 6.14.17.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 61372,
+      "exportedPath": "attachments/스크린샷-2024-01-02-오후-6.14.17.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2024-01-02 오후 6.17.35.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 31984,
+      "exportedPath": "attachments/스크린샷-2024-01-02-오후-6.17.35.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2024-02-13 오후 2.41.28.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 88167,
+      "exportedPath": "attachments/스크린샷-2024-02-13-오후-2.41.28.png",
+      "dependencies": []
+    },
+    "attachments/스크린샷 2024-02-13 오후 2.47.33.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 65625,
+      "exportedPath": "attachments/스크린샷-2024-02-13-오후-2.47.33.png",
+      "dependencies": []
+    },
+    "attachments/images_gil0127_post_813ea794-6eef-40b4-8042-09a8551082fd_multi.gif": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 209461,
+      "exportedPath": "attachments/images_gil0127_post_813ea794-6eef-40b4-8042-09a8551082fd_multi.gif",
+      "dependencies": []
+    },
+    "attachments/images_gil0127_post_e77bf094-c662-48ac-ad2e-530d9bd0f781_single.gif": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 146136,
+      "exportedPath": "attachments/images_gil0127_post_e77bf094-c662-48ac-ad2e-530d9bd0f781_single.gif",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231110165126.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 81122,
+      "exportedPath": "attachments/pasted-image-20231110165126.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231110233821.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 60762,
+      "exportedPath": "attachments/pasted-image-20231110233821.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231110233821 1.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 60762,
+      "exportedPath": "attachments/pasted-image-20231110233821-1.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231111012342.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 40708,
+      "exportedPath": "attachments/pasted-image-20231111012342.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231117142819.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 96876,
+      "exportedPath": "attachments/pasted-image-20231117142819.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231117143127.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 11952,
+      "exportedPath": "attachments/pasted-image-20231117143127.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231117143317.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 11889,
+      "exportedPath": "attachments/pasted-image-20231117143317.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231117143710.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 15058,
+      "exportedPath": "attachments/pasted-image-20231117143710.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231117144006.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 19371,
+      "exportedPath": "attachments/pasted-image-20231117144006.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231117144031.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 23444,
+      "exportedPath": "attachments/pasted-image-20231117144031.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231117144734.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 11014,
+      "exportedPath": "attachments/pasted-image-20231117144734.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231117211342.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 128290,
+      "exportedPath": "attachments/pasted-image-20231117211342.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231117211847.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 9984,
+      "exportedPath": "attachments/pasted-image-20231117211847.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231117212108.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 5044,
+      "exportedPath": "attachments/pasted-image-20231117212108.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231117212546.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 29212,
+      "exportedPath": "attachments/pasted-image-20231117212546.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231117214139.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 581951,
+      "exportedPath": "attachments/pasted-image-20231117214139.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231117214549.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 14091,
+      "exportedPath": "attachments/pasted-image-20231117214549.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231117214830.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 29212,
+      "exportedPath": "attachments/pasted-image-20231117214830.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231117224311.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 491358,
+      "exportedPath": "attachments/pasted-image-20231117224311.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231117224554.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 52586,
+      "exportedPath": "attachments/pasted-image-20231117224554.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231117224804.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 65290,
+      "exportedPath": "attachments/pasted-image-20231117224804.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231121183520.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 54838,
+      "exportedPath": "attachments/pasted-image-20231121183520.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231121183535.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 9594,
+      "exportedPath": "attachments/pasted-image-20231121183535.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231201220343.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 781766,
+      "exportedPath": "attachments/pasted-image-20231201220343.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231201223133.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 234272,
+      "exportedPath": "attachments/pasted-image-20231201223133.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231205145604.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 101921,
+      "exportedPath": "attachments/pasted-image-20231205145604.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231205152643.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 213113,
+      "exportedPath": "attachments/pasted-image-20231205152643.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231205161425.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 60787,
+      "exportedPath": "attachments/pasted-image-20231205161425.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231206000130.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 291890,
+      "exportedPath": "attachments/pasted-image-20231206000130.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231206000133.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 291890,
+      "exportedPath": "attachments/pasted-image-20231206000133.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231206195050.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 84785,
+      "exportedPath": "attachments/pasted-image-20231206195050.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231206205109.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 113637,
+      "exportedPath": "attachments/pasted-image-20231206205109.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231206214851.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 149881,
+      "exportedPath": "attachments/pasted-image-20231206214851.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231206215006.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 149881,
+      "exportedPath": "attachments/pasted-image-20231206215006.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231206215211.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 153411,
+      "exportedPath": "attachments/pasted-image-20231206215211.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231207105614.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 70896,
+      "exportedPath": "attachments/pasted-image-20231207105614.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231207110006.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 78324,
+      "exportedPath": "attachments/pasted-image-20231207110006.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231207111844.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 58525,
+      "exportedPath": "attachments/pasted-image-20231207111844.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231207114611.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 15951,
+      "exportedPath": "attachments/pasted-image-20231207114611.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231207133231.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 11051,
+      "exportedPath": "attachments/pasted-image-20231207133231.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231207173313.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 110853,
+      "exportedPath": "attachments/pasted-image-20231207173313.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231207175433.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 19068,
+      "exportedPath": "attachments/pasted-image-20231207175433.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231207190106.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 30184,
+      "exportedPath": "attachments/pasted-image-20231207190106.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231207232002.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 87177,
+      "exportedPath": "attachments/pasted-image-20231207232002.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231207232819.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 15016,
+      "exportedPath": "attachments/pasted-image-20231207232819.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231208001917.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 212101,
+      "exportedPath": "attachments/pasted-image-20231208001917.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231208114540.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 164099,
+      "exportedPath": "attachments/pasted-image-20231208114540.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231208180820.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 52103,
+      "exportedPath": "attachments/pasted-image-20231208180820.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231208180840.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 49919,
+      "exportedPath": "attachments/pasted-image-20231208180840.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231208180856.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 40115,
+      "exportedPath": "attachments/pasted-image-20231208180856.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231208180930.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 47645,
+      "exportedPath": "attachments/pasted-image-20231208180930.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231221150813.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 126419,
+      "exportedPath": "attachments/pasted-image-20231221150813.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231221151511.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 17023,
+      "exportedPath": "attachments/pasted-image-20231221151511.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231221161650.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 33447,
+      "exportedPath": "attachments/pasted-image-20231221161650.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231221162024.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 101288,
+      "exportedPath": "attachments/pasted-image-20231221162024.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231221162631.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 47473,
+      "exportedPath": "attachments/pasted-image-20231221162631.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231221163733.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 608847,
+      "exportedPath": "attachments/pasted-image-20231221163733.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231221165236.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 90841,
+      "exportedPath": "attachments/pasted-image-20231221165236.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231221165449.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 155506,
+      "exportedPath": "attachments/pasted-image-20231221165449.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231221165741.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1136172,
+      "exportedPath": "attachments/pasted-image-20231221165741.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231221170543.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 139175,
+      "exportedPath": "attachments/pasted-image-20231221170543.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231221171002.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 107288,
+      "exportedPath": "attachments/pasted-image-20231221171002.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231222120341.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 140089,
+      "exportedPath": "attachments/pasted-image-20231222120341.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231222132856.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 491358,
+      "exportedPath": "attachments/pasted-image-20231222132856.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231222133021.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 115920,
+      "exportedPath": "attachments/pasted-image-20231222133021.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231222133637.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1264703,
+      "exportedPath": "attachments/pasted-image-20231222133637.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231222140805.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 630497,
+      "exportedPath": "attachments/pasted-image-20231222140805.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231222172040.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 333441,
+      "exportedPath": "attachments/pasted-image-20231222172040.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231222173337.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 34922,
+      "exportedPath": "attachments/pasted-image-20231222173337.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231222181115.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 36449,
+      "exportedPath": "attachments/pasted-image-20231222181115.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231222182937.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 91141,
+      "exportedPath": "attachments/pasted-image-20231222182937.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231222183834.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 44179,
+      "exportedPath": "attachments/pasted-image-20231222183834.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231227160835.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 56758,
+      "exportedPath": "attachments/pasted-image-20231227160835.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231227161028.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 286081,
+      "exportedPath": "attachments/pasted-image-20231227161028.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231227161358.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 20677,
+      "exportedPath": "attachments/pasted-image-20231227161358.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231227165039.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 83691,
+      "exportedPath": "attachments/pasted-image-20231227165039.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231227165628.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 120897,
+      "exportedPath": "attachments/pasted-image-20231227165628.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231227184550.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 211514,
+      "exportedPath": "attachments/pasted-image-20231227184550.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231227185850.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 45182,
+      "exportedPath": "attachments/pasted-image-20231227185850.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231227190114.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 45182,
+      "exportedPath": "attachments/pasted-image-20231227190114.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231229143613.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 57463,
+      "exportedPath": "attachments/pasted-image-20231229143613.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231229144049.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 205527,
+      "exportedPath": "attachments/pasted-image-20231229144049.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231229174122.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 65554,
+      "exportedPath": "attachments/pasted-image-20231229174122.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231229174528.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 50186,
+      "exportedPath": "attachments/pasted-image-20231229174528.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240102171614.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 171431,
+      "exportedPath": "attachments/pasted-image-20240102171614.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240102174925.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 46572,
+      "exportedPath": "attachments/pasted-image-20240102174925.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240104135225.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 34170,
+      "exportedPath": "attachments/pasted-image-20240104135225.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240104144405.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 313405,
+      "exportedPath": "attachments/pasted-image-20240104144405.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240110152152.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 35795,
+      "exportedPath": "attachments/pasted-image-20240110152152.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240115160611.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 183843,
+      "exportedPath": "attachments/pasted-image-20240115160611.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240115161637.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 56222,
+      "exportedPath": "attachments/pasted-image-20240115161637.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240120225523.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 144683,
+      "exportedPath": "attachments/pasted-image-20240120225523.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240213150602.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 53217,
+      "exportedPath": "attachments/pasted-image-20240213150602.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240228161847.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 43449,
+      "exportedPath": "attachments/pasted-image-20240228161847.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240228161957.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 31358,
+      "exportedPath": "attachments/pasted-image-20240228161957.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240229112944.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 43449,
+      "exportedPath": "attachments/pasted-image-20240229112944.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240229142303.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 31358,
+      "exportedPath": "attachments/pasted-image-20240229142303.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240229144113.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 344176,
+      "exportedPath": "attachments/pasted-image-20240229144113.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240229150208.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 41688,
+      "exportedPath": "attachments/pasted-image-20240229150208.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240229150717.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 43290,
+      "exportedPath": "attachments/pasted-image-20240229150717.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240229150834.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 54602,
+      "exportedPath": "attachments/pasted-image-20240229150834.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240229152120.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 6949,
+      "exportedPath": "attachments/pasted-image-20240229152120.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240229152445.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 19290,
+      "exportedPath": "attachments/pasted-image-20240229152445.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240229152549.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 15586,
+      "exportedPath": "attachments/pasted-image-20240229152549.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240229152637.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 20758,
+      "exportedPath": "attachments/pasted-image-20240229152637.png",
+      "dependencies": []
+    },
+    "aws/S3.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 15021,
+      "exportedPath": "aws/s3.html",
+      "dependencies": []
+    },
+    "django/뷰와 URL conf.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 8887,
+      "exportedPath": "django/뷰와-url-conf.html",
+      "dependencies": []
+    },
+    "django/장고 모델.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 16636,
+      "exportedPath": "django/장고-모델.html",
+      "dependencies": []
+    },
+    "django/장고 모델 (2).md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 17735,
+      "exportedPath": "django/장고-모델-(2).html",
+      "dependencies": []
+    },
+    "django/장고 어드민.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 11445,
+      "exportedPath": "django/장고-어드민.html",
+      "dependencies": []
+    },
+    "django/장고 입문.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 11714,
+      "exportedPath": "django/장고-입문.html",
+      "dependencies": []
+    },
+    "django/장고 템플릿.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 20177,
+      "exportedPath": "django/장고-템플릿.html",
+      "dependencies": []
+    },
+    "network/code/__pycache__/test.cpython-39.pyc": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 340,
+      "exportedPath": "network/code/__pycache__/test.cpython-39.pyc",
+      "dependencies": []
+    },
+    "network/code/http/assignemnet/404.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 262,
+      "exportedPath": "network/code/http/assignemnet/404.html",
+      "dependencies": []
+    },
+    "network/code/http/assignemnet/500.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 260,
+      "exportedPath": "network/code/http/assignemnet/500.html",
+      "dependencies": []
+    },
+    "network/code/http/assignemnet/503.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 270,
+      "exportedPath": "network/code/http/assignemnet/503.html",
+      "dependencies": []
+    },
+    "network/code/http/assignemnet/article1.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 263,
+      "exportedPath": "network/code/http/assignemnet/article1.html",
+      "dependencies": []
+    },
+    "network/code/http/assignemnet/article2.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 263,
+      "exportedPath": "network/code/http/assignemnet/article2.html",
+      "dependencies": []
+    },
+    "network/code/http/assignemnet/async_server.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 6176,
+      "exportedPath": "network/code/http/assignemnet/async_server.py",
+      "dependencies": []
+    },
+    "network/code/http/assignemnet/CA.pem": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1289,
+      "exportedPath": "network/code/http/assignemnet/ca.pem",
+      "dependencies": []
+    },
+    "network/code/http/assignemnet/client.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1119,
+      "exportedPath": "network/code/http/assignemnet/client.py",
+      "dependencies": []
+    },
+    "network/code/http/assignemnet/index.html": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 328,
+      "exportedPath": "network/code/http/assignemnet/index.html",
+      "dependencies": []
+    },
+    "network/code/http/assignemnet/server.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 2915,
+      "exportedPath": "network/code/http/assignemnet/server.py",
+      "dependencies": []
+    },
+    "network/code/http/assignemnet/server.key": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1704,
+      "exportedPath": "network/code/http/assignemnet/server.key",
+      "dependencies": []
+    },
+    "network/code/http/assignemnet/server.crt": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1273,
+      "exportedPath": "network/code/http/assignemnet/server.crt",
+      "dependencies": []
+    },
+    "network/code/http/cgi/cgi-bin/add.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 230,
+      "exportedPath": "network/code/http/cgi/cgi-bin/add.py",
+      "dependencies": []
+    },
+    "network/code/http/cgi/cgi-bin/post.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 193,
+      "exportedPath": "network/code/http/cgi/cgi-bin/post.py",
+      "dependencies": []
+    },
+    "network/code/http/cgi/server.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 351,
+      "exportedPath": "network/code/http/cgi/server.py",
+      "dependencies": []
+    },
+    "network/code/http/chunk_test/__pycache__/main.cpython-310.pyc": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 789,
+      "exportedPath": "network/code/http/chunk_test/__pycache__/main.cpython-310.pyc",
+      "dependencies": []
+    },
+    "network/code/http/chunk_test/client.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1370,
+      "exportedPath": "network/code/http/chunk_test/client.py",
+      "dependencies": []
+    },
+    "network/code/http/chunk_test/main.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 351,
+      "exportedPath": "network/code/http/chunk_test/main.py",
+      "dependencies": []
+    },
+    "network/code/http/chunk_test/test.gif": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 7557482,
+      "exportedPath": "network/code/http/chunk_test/test.gif",
+      "dependencies": []
+    },
+    "network/code/http/wsgi/simple_wsgi.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 529,
+      "exportedPath": "network/code/http/wsgi/simple_wsgi.py",
+      "dependencies": []
+    },
+    "network/code/http/reuse_connection.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1143,
+      "exportedPath": "network/code/http/reuse_connection.py",
+      "dependencies": []
+    },
+    "network/code/multy_chat/multy_client.dSYM/Contents/Resources/DWARF/multy_client": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 14838,
+      "exportedPath": "network/code/multy_chat/multy_client.dsym/contents/resources/dwarf/multy_client/multy_client.",
+      "dependencies": []
+    },
+    "network/code/multy_chat/multy_client.dSYM/Contents/Info.plist": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 641,
+      "exportedPath": "network/code/multy_chat/multy_client.dsym/contents/info.plist",
+      "dependencies": []
+    },
+    "network/code/multy_chat/multy_server.dSYM/Contents/Resources/DWARF/multy_server": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 15195,
+      "exportedPath": "network/code/multy_chat/multy_server.dsym/contents/resources/dwarf/multy_server/multy_server.",
+      "dependencies": []
+    },
+    "network/code/multy_chat/multy_server.dSYM/Contents/Info.plist": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 641,
+      "exportedPath": "network/code/multy_chat/multy_server.dsym/contents/info.plist",
+      "dependencies": []
+    },
+    "network/code/multy_chat/a.out": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 51810,
+      "exportedPath": "network/code/multy_chat/a.out",
+      "dependencies": []
+    },
+    "network/code/multy_chat/client": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 51811,
+      "exportedPath": "network/code/multy_chat/client/client.",
+      "dependencies": []
+    },
+    "network/code/multy_chat/multy_client.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 5239,
+      "exportedPath": "network/code/multy_chat/multy_client.c",
+      "dependencies": []
+    },
+    "network/code/multy_chat/multy_server.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 7330,
+      "exportedPath": "network/code/multy_chat/multy_server.c",
+      "dependencies": []
+    },
+    "network/code/multy_chat/server": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 51475,
+      "exportedPath": "network/code/multy_chat/server/server.",
+      "dependencies": []
+    },
+    "network/code/tcp/tcp_blocking_server.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 2321,
+      "exportedPath": "network/code/tcp/tcp_blocking_server.c",
+      "dependencies": []
+    },
+    "network/code/tcp/tcp_client.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 549,
+      "exportedPath": "network/code/tcp/tcp_client.py",
+      "dependencies": []
+    },
+    "network/code/tcp/tcp_server.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1649,
+      "exportedPath": "network/code/tcp/tcp_server.py",
+      "dependencies": []
+    },
+    "network/code/udp/a.out": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 50850,
+      "exportedPath": "network/code/udp/a.out",
+      "dependencies": []
+    },
+    "network/code/udp/client.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1395,
+      "exportedPath": "network/code/udp/client.c",
+      "dependencies": []
+    },
+    "network/code/udp/server.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1368,
+      "exportedPath": "network/code/udp/server.c",
+      "dependencies": []
+    },
+    "network/code/multy_server.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1967,
+      "exportedPath": "network/code/multy_server.py",
+      "dependencies": []
+    },
+    "network/code/test.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 150,
+      "exportedPath": "network/code/test.py",
+      "dependencies": []
+    },
+    "network/code/view_cookies.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 403,
+      "exportedPath": "network/code/view_cookies.py",
+      "dependencies": []
+    },
+    "network/게이트웨이.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 2763,
+      "exportedPath": "network/게이트웨이.html",
+      "dependencies": []
+    },
+    "network/네트워크 첫 걸음.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 7684,
+      "exportedPath": "network/네트워크-첫-걸음.html",
+      "dependencies": []
+    },
+    "network/데이터 단위.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 11021,
+      "exportedPath": "network/데이터-단위.html",
+      "dependencies": []
+    },
+    "network/라우터 알아보기.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 12291,
+      "exportedPath": "network/라우터-알아보기.html",
+      "dependencies": []
+    },
+    "network/소켓.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 19302,
+      "exportedPath": "network/소켓.html",
+      "dependencies": []
+    },
+    "network/웹서버와 nginx.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 13455,
+      "exportedPath": "network/웹서버와-nginx.html",
+      "dependencies": []
+    },
+    "network/이더넷 톺아보기.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 7942,
+      "exportedPath": "network/이더넷-톺아보기.html",
+      "dependencies": []
+    },
+    "network/초 간단 웹서버 만들고 실험하기.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 16936,
+      "exportedPath": "network/초-간단-웹서버-만들고-실험하기.html",
+      "dependencies": []
+    },
+    "network/커넥션 풀이란.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1059,
+      "exportedPath": "network/커넥션-풀이란.html",
+      "dependencies": []
+    },
+    "network/쿠키와 세션.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 9156,
+      "exportedPath": "network/쿠키와-세션.html",
+      "dependencies": []
+    },
+    "network/CGI.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 34711,
+      "exportedPath": "network/cgi.html",
+      "dependencies": []
+    },
+    "network/DHCP.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 2314,
+      "exportedPath": "network/dhcp.html",
+      "dependencies": []
+    },
+    "network/FQDN.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 3808,
+      "exportedPath": "network/fqdn.html",
+      "dependencies": []
+    },
+    "network/HTTP  메서드.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 8825,
+      "exportedPath": "network/http-메서드.html",
+      "dependencies": []
+    },
+    "network/HTTP 개관.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 9668,
+      "exportedPath": "network/http-개관.html",
+      "dependencies": []
+    },
+    "network/HTTP 메시지.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 6981,
+      "exportedPath": "network/http-메시지.html",
+      "dependencies": []
+    },
+    "network/HTTP Chunk VS Content-Length.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 17276,
+      "exportedPath": "network/http-chunk-vs-content-length.html",
+      "dependencies": []
+    },
+    "network/HTTP Connection.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 10713,
+      "exportedPath": "network/http-connection.html",
+      "dependencies": []
+    },
+    "network/HTTPS.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 27555,
+      "exportedPath": "network/https.html",
+      "dependencies": []
+    },
+    "network/IP 계층 첫 걸음.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 6740,
+      "exportedPath": "network/ip-계층-첫-걸음.html",
+      "dependencies": []
+    },
+    "network/MAC 계층.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 5913,
+      "exportedPath": "network/mac-계층.html",
+      "dependencies": []
+    },
+    "network/NAT.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 7194,
+      "exportedPath": "network/nat.html",
+      "dependencies": []
+    },
+    "network/SDN.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 3994,
+      "exportedPath": "network/sdn.html",
+      "dependencies": []
+    },
+    "network/SSH를 알아보자.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 10542,
+      "exportedPath": "network/ssh를-알아보자.html",
+      "dependencies": [
+        "lib/media/pasted-image-20231229174122.png",
+        "lib/media/pasted-image-20231229143613.png",
+        "lib/media/pasted-image-20231229144049.png",
+        "lib/media/pasted-image-20231229174528.png",
+        "lib/media/스크린샷-2023-12-29-오후-5.17.25.png",
+        "lib/media/스크린샷-2023-12-29-오후-5.18.50.png",
+        "lib/media/스크린샷-2023-12-29-오후-5.19.40.png",
+        "lib/media/스크린샷-2023-12-29-오후-5.20.07.png"
+      ]
+    },
+    "network/Stateful과 Stateless.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 14970,
+      "exportedPath": "network/stateful과-stateless.html",
+      "dependencies": []
+    },
+    "network/TCP 첫 걸음.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 15490,
+      "exportedPath": "network/tcp-첫-걸음.html",
+      "dependencies": []
+    },
+    "network/TCP 혼잡 제어.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 6884,
+      "exportedPath": "network/tcp-혼잡-제어.html",
+      "dependencies": []
+    },
+    "network/TCP는 커널에서 처리한다.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 4276,
+      "exportedPath": "network/tcp는-커널에서-처리한다.html",
+      "dependencies": []
+    },
+    "network/TCP의 흐름 제어.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 13690,
+      "exportedPath": "network/tcp의-흐름-제어.html",
+      "dependencies": []
+    },
+    "network/UDP 톺아보기 (+TCP와 차이).md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 11692,
+      "exportedPath": "network/udp-톺아보기-(+tcp와-차이).html",
+      "dependencies": []
+    },
+    "network/URL.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 8847,
+      "exportedPath": "network/url.html",
+      "dependencies": []
+    },
+    "network/WSGI.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 24122,
+      "exportedPath": "network/wsgi.html",
+      "dependencies": []
+    },
+    "opensource/urllib3/HTTP 커넥션의 response (3).md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 17341,
+      "exportedPath": "opensource/urllib3/http-커넥션의-response-(3).html",
+      "dependencies": []
+    },
+    "opensource/urllib3/HTTP Connection 딮다이브 (2).md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 25771,
+      "exportedPath": "opensource/urllib3/http-connection-딮다이브-(2).html",
+      "dependencies": []
+    },
+    "opensource/urllib3/HTTPConnection 부터 send까지 (1).md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 19781,
+      "exportedPath": "opensource/urllib3/httpconnection-부터-send까지-(1).html",
+      "dependencies": []
+    },
+    "opensource/urllib3/PoolManager.request 분석하기.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 4414,
+      "exportedPath": "opensource/urllib3/poolmanager.request-분석하기.html",
+      "dependencies": []
+    },
+    "opensource/urllib3/Readme.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1242,
+      "exportedPath": "opensource/urllib3/readme.html",
+      "dependencies": []
+    },
+    "os/code/async/async_await.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 243,
+      "exportedPath": "os/code/async/async_await.py",
+      "dependencies": []
+    },
+    "os/code/async/async_task.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 429,
+      "exportedPath": "os/code/async/async_task.py",
+      "dependencies": []
+    },
+    "os/code/async/async1.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 719,
+      "exportedPath": "os/code/async/async1.py",
+      "dependencies": []
+    },
+    "os/code/epoll/a.out": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 50866,
+      "exportedPath": "os/code/epoll/a.out",
+      "dependencies": []
+    },
+    "os/code/epoll/client.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1244,
+      "exportedPath": "os/code/epoll/client.c",
+      "dependencies": []
+    },
+    "os/code/epoll/dockerfile": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 554,
+      "exportedPath": "os/code/epoll/dockerfile/dockerfile.",
+      "dependencies": []
+    },
+    "os/code/epoll/loop_client.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1775,
+      "exportedPath": "os/code/epoll/loop_client.c",
+      "dependencies": []
+    },
+    "os/code/epoll/loop_server.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 2479,
+      "exportedPath": "os/code/epoll/loop_server.c",
+      "dependencies": []
+    },
+    "os/code/epoll/server.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 3321,
+      "exportedPath": "os/code/epoll/server.c",
+      "dependencies": []
+    },
+    "os/code/ipc/message_pass_recv.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 541,
+      "exportedPath": "os/code/ipc/message_pass_recv.c",
+      "dependencies": []
+    },
+    "os/code/ipc/message_pass_sender.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 625,
+      "exportedPath": "os/code/ipc/message_pass_sender.c",
+      "dependencies": []
+    },
+    "os/code/ipc/recv": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 50209,
+      "exportedPath": "os/code/ipc/recv/recv.",
+      "dependencies": []
+    },
+    "os/code/ipc/send": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 50273,
+      "exportedPath": "os/code/ipc/send/send.",
+      "dependencies": []
+    },
+    "os/code/process/exec_test.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 319,
+      "exportedPath": "os/code/process/exec_test.c",
+      "dependencies": []
+    },
+    "os/code/process/fork_test.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 489,
+      "exportedPath": "os/code/process/fork_test.c",
+      "dependencies": []
+    },
+    "os/code/process/orphan": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 50227,
+      "exportedPath": "os/code/process/orphan/orphan.",
+      "dependencies": []
+    },
+    "os/code/process/orphan.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 767,
+      "exportedPath": "os/code/process/orphan.c",
+      "dependencies": []
+    },
+    "os/code/process/wait_test.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 501,
+      "exportedPath": "os/code/process/wait_test.c",
+      "dependencies": []
+    },
+    "os/code/process/zombie_test.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 335,
+      "exportedPath": "os/code/process/zombie_test.c",
+      "dependencies": []
+    },
+    "os/code/sync_async/async_test.dSYM/Contents/Resources/DWARF/async_test": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 13223,
+      "exportedPath": "os/code/sync_async/async_test.dsym/contents/resources/dwarf/async_test/async_test.",
+      "dependencies": []
+    },
+    "os/code/sync_async/async_test.dSYM/Contents/Info.plist": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 639,
+      "exportedPath": "os/code/sync_async/async_test.dsym/contents/info.plist",
+      "dependencies": []
+    },
+    "os/code/sync_async/async.dSYM/Contents/Resources/DWARF/async": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 13186,
+      "exportedPath": "os/code/sync_async/async.dsym/contents/resources/dwarf/async/async.",
+      "dependencies": []
+    },
+    "os/code/sync_async/async.dSYM/Contents/Info.plist": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 634,
+      "exportedPath": "os/code/sync_async/async.dsym/contents/info.plist",
+      "dependencies": []
+    },
+    "os/code/sync_async/select_practice.dSYM/Contents/Resources/DWARF/select_practice": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 12884,
+      "exportedPath": "os/code/sync_async/select_practice.dsym/contents/resources/dwarf/select_practice/select_practice.",
+      "dependencies": []
+    },
+    "os/code/sync_async/select_practice.dSYM/Contents/Info.plist": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 644,
+      "exportedPath": "os/code/sync_async/select_practice.dsym/contents/info.plist",
+      "dependencies": []
+    },
+    "os/code/sync_async/a.out": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 50434,
+      "exportedPath": "os/code/sync_async/a.out",
+      "dependencies": []
+    },
+    "os/code/sync_async/async": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 51586,
+      "exportedPath": "os/code/sync_async/async/async.",
+      "dependencies": []
+    },
+    "os/code/sync_async/async_multy_io.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 2079,
+      "exportedPath": "os/code/sync_async/async_multy_io.py",
+      "dependencies": []
+    },
+    "os/code/sync_async/async_test.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1392,
+      "exportedPath": "os/code/sync_async/async_test.c",
+      "dependencies": []
+    },
+    "os/code/sync_async/await.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 418,
+      "exportedPath": "os/code/sync_async/await.py",
+      "dependencies": []
+    },
+    "os/code/sync_async/busy_wait_select.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1341,
+      "exportedPath": "os/code/sync_async/busy_wait_select.py",
+      "dependencies": []
+    },
+    "os/code/sync_async/busy_wait_timeout.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 520,
+      "exportedPath": "os/code/sync_async/busy_wait_timeout.py",
+      "dependencies": []
+    },
+    "os/code/sync_async/event_timeout.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 935,
+      "exportedPath": "os/code/sync_async/event_timeout.py",
+      "dependencies": []
+    },
+    "os/code/sync_async/file.txt": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 35,
+      "exportedPath": "os/code/sync_async/file.txt",
+      "dependencies": []
+    },
+    "os/code/sync_async/large.txt": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 8826,
+      "exportedPath": "os/code/sync_async/large.txt",
+      "dependencies": []
+    },
+    "os/code/sync_async/select_practice.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1039,
+      "exportedPath": "os/code/sync_async/select_practice.c",
+      "dependencies": []
+    },
+    "os/code/sync_async/small.txt": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 5,
+      "exportedPath": "os/code/sync_async/small.txt",
+      "dependencies": []
+    },
+    "os/code/sync_async/sync.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1857,
+      "exportedPath": "os/code/sync_async/sync.c",
+      "dependencies": []
+    },
+    "os/code/sync_async/sync_non_block": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 50523,
+      "exportedPath": "os/code/sync_async/sync_non_block/sync_non_block.",
+      "dependencies": []
+    },
+    "os/code/syscall/simple_print.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 76,
+      "exportedPath": "os/code/syscall/simple_print.c",
+      "dependencies": []
+    },
+    "os/code/syscall/syscall_overhead.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 393,
+      "exportedPath": "os/code/syscall/syscall_overhead.c",
+      "dependencies": []
+    },
+    "os/code/thread/__pycache__/main.cpython-310.pyc": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 909,
+      "exportedPath": "os/code/thread/__pycache__/main.cpython-310.pyc",
+      "dependencies": []
+    },
+    "os/code/thread/thread_high_compute.dSYM/Contents/Resources/DWARF/thread_high_compute": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 11702,
+      "exportedPath": "os/code/thread/thread_high_compute.dsym/contents/resources/dwarf/thread_high_compute/thread_high_compute.",
+      "dependencies": []
+    },
+    "os/code/thread/thread_high_compute.dSYM/Contents/Info.plist": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 648,
+      "exportedPath": "os/code/thread/thread_high_compute.dsym/contents/info.plist",
+      "dependencies": []
+    },
+    "os/code/thread/a.out": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 50450,
+      "exportedPath": "os/code/thread/a.out",
+      "dependencies": []
+    },
+    "os/code/thread/main.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 430,
+      "exportedPath": "os/code/thread/main.py",
+      "dependencies": []
+    },
+    "os/code/thread/thread_atomic.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1095,
+      "exportedPath": "os/code/thread/thread_atomic.c",
+      "dependencies": []
+    },
+    "os/code/thread/thread_high_compute.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 1798,
+      "exportedPath": "os/code/thread/thread_high_compute.c",
+      "dependencies": []
+    },
+    "os/code/thread/thread_io.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 2892,
+      "exportedPath": "os/code/thread/thread_io.c",
+      "dependencies": []
+    },
+    "os/code/thread/thread_race.c": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 523,
+      "exportedPath": "os/code/thread/thread_race.c",
+      "dependencies": []
+    },
+    "os/code/thread/thread_test": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 50408,
+      "exportedPath": "os/code/thread/thread_test/thread_test.",
+      "dependencies": []
+    },
+    "os/가상 메모리.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 21767,
+      "exportedPath": "os/가상-메모리.html",
+      "dependencies": []
+    },
+    "os/데드락.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 13089,
+      "exportedPath": "os/데드락.html",
+      "dependencies": []
+    },
+    "os/동기와 비동기 (Blocking, None-Blocking).md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 17678,
+      "exportedPath": "os/동기와-비동기-(blocking,-none-blocking).html",
+      "dependencies": []
+    },
+    "os/동기화.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 14651,
+      "exportedPath": "os/동기화.html",
+      "dependencies": []
+    },
+    "os/멀티 스레딩.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 18992,
+      "exportedPath": "os/멀티-스레딩.html",
+      "dependencies": []
+    },
+    "os/메모리.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 20614,
+      "exportedPath": "os/메모리.html",
+      "dependencies": []
+    },
+    "os/스케줄러.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 9086,
+      "exportedPath": "os/스케줄러.html",
+      "dependencies": []
+    },
+    "os/스케쥴링 기법.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 16579,
+      "exportedPath": "os/스케쥴링-기법.html",
+      "dependencies": []
+    },
+    "os/시스템 콜.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 15030,
+      "exportedPath": "os/시스템-콜.html",
+      "dependencies": []
+    },
+    "os/쓰레드.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 16870,
+      "exportedPath": "os/쓰레드.html",
+      "dependencies": []
+    },
+    "os/이벤트 루프.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 23810,
+      "exportedPath": "os/이벤트-루프.html",
+      "dependencies": []
+    },
+    "os/커널.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 5366,
+      "exportedPath": "os/커널.html",
+      "dependencies": []
+    },
+    "os/파일 시스템.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 14187,
+      "exportedPath": "os/파일-시스템.html",
+      "dependencies": []
+    },
+    "os/프로세스.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 25101,
+      "exportedPath": "os/프로세스.html",
+      "dependencies": []
+    },
+    "os/Async,Await.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 25519,
+      "exportedPath": "os/async,await.html",
+      "dependencies": []
+    },
+    "os/Inter Process Communication.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 7019,
+      "exportedPath": "os/inter-process-communication.html",
+      "dependencies": []
+    },
+    "os/IO Multiplexing.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 27612,
+      "exportedPath": "os/io-multiplexing.html",
+      "dependencies": []
+    },
+    "output/mod/arguments.yml": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 83,
+      "exportedPath": "output/mod/arguments.yml",
+      "dependencies": []
+    },
+    "output/mod/capabilities.json": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 105,
+      "exportedPath": "output/mod/capabilities.json",
+      "dependencies": []
+    },
+    "output/mod/config.yml": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 7761,
+      "exportedPath": "output/mod/config.yml",
+      "dependencies": []
+    },
+    "output/mod/guid.txt": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 36,
+      "exportedPath": "output/mod/guid.txt",
+      "dependencies": []
+    },
+    "output/mod/modfile_dependencies.json": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 4273,
+      "exportedPath": "output/mod/modfile_dependencies.json",
+      "dependencies": []
+    },
+    "output/mod/user_config.yml": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 214,
+      "exportedPath": "output/mod/user_config.yml",
+      "dependencies": []
+    },
+    "portfolio/정명진.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 4390,
+      "exportedPath": "portfolio/정명진.html",
+      "dependencies": []
+    },
+    "portfolio/정명진 포트폴리오.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 7649,
+      "exportedPath": "portfolio/정명진-포트폴리오.html",
+      "dependencies": []
+    },
+    "python/code/raise_from.py": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 356,
+      "exportedPath": "python/code/raise_from.py",
+      "dependencies": []
+    },
+    "python/정리할 파이썬 토픽.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 219,
+      "exportedPath": "python/정리할-파이썬-토픽.html",
+      "dependencies": []
+    },
+    "python/파이썬의 우아한 예외처리.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 8878,
+      "exportedPath": "python/파이썬의-우아한-예외처리.html",
+      "dependencies": []
+    },
+    "config.yaml": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 269,
+      "exportedPath": "config.yaml",
+      "dependencies": []
+    },
+    "entry.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 9,
+      "exportedPath": "entry.html",
+      "dependencies": []
+    },
+    "README.md": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 345,
+      "exportedPath": "readme.html",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20231229174122.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 65554,
+      "exportedPath": "lib/media/pasted-image-20231229174122.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20231229143613.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 57463,
+      "exportedPath": "lib/media/pasted-image-20231229143613.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20231229144049.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 205527,
+      "exportedPath": "lib/media/pasted-image-20231229144049.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20231229174528.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 50186,
+      "exportedPath": "lib/media/pasted-image-20231229174528.png",
+      "dependencies": []
+    },
+    "lib/media/스크린샷-2023-12-29-오후-5.17.25.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 19345,
+      "exportedPath": "lib/media/스크린샷-2023-12-29-오후-5.17.25.png",
+      "dependencies": []
+    },
+    "lib/media/스크린샷-2023-12-29-오후-5.18.50.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 48861,
+      "exportedPath": "lib/media/스크린샷-2023-12-29-오후-5.18.50.png",
+      "dependencies": []
+    },
+    "lib/media/스크린샷-2023-12-29-오후-5.19.40.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 21522,
+      "exportedPath": "lib/media/스크린샷-2023-12-29-오후-5.19.40.png",
+      "dependencies": []
+    },
+    "lib/media/스크린샷-2023-12-29-오후-5.20.07.png": {
+      "modifiedTime": 1720679387489,
+      "sourceSize": 12959,
+      "exportedPath": "lib/media/스크린샷-2023-12-29-오후-5.20.07.png",
+      "dependencies": []
+    }
+  }
+}

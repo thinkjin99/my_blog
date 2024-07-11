@@ -1,0 +1,280 @@
+<!DOCTYPE html> <html><head>
+		<title>데드락</title>
+		<base href="../">
+		<meta id="root-path" root-path="../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="my_study - 데드락">
+		<meta property="og:title" content="데드락">
+		<meta property="og:description" content="my_study - 데드락">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="os/데드락.html">
+		<meta property="og:image" content="https://my-study.s3.ap-northeast-2.amazonaws.com/%EB%8D%B0%EB%93%9C%EB%9D%BD%20/%20Pasted%20image%2020231207232002.png">
+		<meta property="og:site_name" content="my_study">
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/other-plugins.css"></noscript><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript><link rel="preload" href="lib/styles/snippets.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/snippets.css"></noscript></head><body class="publish css-settings-manager theme-light show-inline-title show-ribbon code-styler code-styler-style-inline code-styler-gutter-highlight"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles">mjx-mfrac { display: inline-block; text-align: left; }
+mjx-frac { display: inline-block; vertical-align: 0.17em; padding: 0px 0.22em; }
+mjx-frac[type="d"] { vertical-align: 0.04em; }
+mjx-frac[delims] { padding: 0px 0.1em; }
+mjx-frac[atop] { padding: 0px 0.12em; }
+mjx-frac[atop][delims] { padding: 0px; }
+mjx-dtable { display: inline-table; width: 100%; }
+mjx-dtable > * { font-size: 2000%; }
+mjx-dbox { display: block; font-size: 5%; }
+mjx-num { display: block; text-align: center; }
+mjx-den { display: block; text-align: center; }
+mjx-mfrac[bevelled] > mjx-num { display: inline-block; }
+mjx-mfrac[bevelled] > mjx-den { display: inline-block; }
+mjx-den[align="right"], mjx-num[align="right"] { text-align: right; }
+mjx-den[align="left"], mjx-num[align="left"] { text-align: left; }
+mjx-nstrut { display: inline-block; height: 0.054em; width: 0px; vertical-align: -0.054em; }
+mjx-nstrut[type="d"] { height: 0.217em; vertical-align: -0.217em; }
+mjx-dstrut { display: inline-block; height: 0.505em; width: 0px; }
+mjx-dstrut[type="d"] { height: 0.726em; }
+mjx-line { display: block; box-sizing: border-box; min-height: 1px; height: 0.06em; border-top: 0.06em solid; margin: 0.06em -0.1em; overflow: hidden; }
+mjx-line[type="d"] { margin: 0.18em -0.1em; }
+mjx-mrow { display: inline-block; text-align: left; }
+mjx-mspace { display: inline-block; text-align: left; }
+mjx-c.mjx-c30::before { padding: 0.666em 0.5em 0.022em 0px; content: "0"; }
+mjx-c.mjx-c32::before { padding: 0.666em 0.5em 0px 0px; content: "2"; }
+mjx-c.mjx-c34::before { padding: 0.677em 0.5em 0px 0px; content: "4"; }
+mjx-c.mjx-c37::before { padding: 0.676em 0.5em 0.022em 0px; content: "7"; }
+mjx-c.mjx-c33::before { padding: 0.665em 0.5em 0.022em 0px; content: "3"; }
+mjx-c.mjx-c36::before { padding: 0.666em 0.5em 0.022em 0px; content: "6"; }
+mjx-c.mjx-c1D463.TEX-I::before { padding: 0.443em 0.485em 0.011em 0px; content: "v"; }
+mjx-c.mjx-c1D45F.TEX-I::before { padding: 0.442em 0.451em 0.011em 0px; content: "r"; }
+mjx-c.mjx-c1D44E.TEX-I::before { padding: 0.441em 0.529em 0.01em 0px; content: "a"; }
+mjx-c.mjx-c1D454.TEX-I::before { padding: 0.442em 0.477em 0.205em 0px; content: "g"; }
+mjx-c.mjx-c1D460.TEX-I::before { padding: 0.442em 0.469em 0.01em 0px; content: "s"; }
+mjx-c.mjx-c1D45C.TEX-I::before { padding: 0.441em 0.485em 0.011em 0px; content: "o"; }
+mjx-c.mjx-c1D45B.TEX-I::before { padding: 0.442em 0.6em 0.011em 0px; content: "n"; }
+mjx-c.mjx-c1D447.TEX-I::before { padding: 0.677em 0.704em 0px 0px; content: "T"; }
+mjx-c.mjx-c35::before { padding: 0.666em 0.5em 0.022em 0px; content: "5"; }
+mjx-c.mjx-c2E::before { padding: 0.12em 0.278em 0px 0px; content: "."; }
+mjx-msub { display: inline-block; text-align: left; }
+mjx-c.mjx-c1D436.TEX-I::before { padding: 0.705em 0.76em 0.022em 0px; content: "C"; }
+mjx-c.mjx-c1D434.TEX-I::before { padding: 0.716em 0.75em 0px 0px; content: "A"; }
+mjx-c.mjx-c1D449.TEX-I::before { padding: 0.683em 0.769em 0.022em 0px; content: "V"; }
+mjx-c.mjx-c1D445.TEX-I::before { padding: 0.683em 0.759em 0.021em 0px; content: "R"; }
+mjx-c.mjx-c1D443.TEX-I::before { padding: 0.683em 0.751em 0px 0px; content: "P"; }
+mjx-c.mjx-c1D456.TEX-I::before { padding: 0.661em 0.345em 0.011em 0px; content: "i"; }
+mjx-container[jax="CHTML"] { line-height: 0; }
+mjx-container [space="1"] { margin-left: 0.111em; }
+mjx-container [space="2"] { margin-left: 0.167em; }
+mjx-container [space="3"] { margin-left: 0.222em; }
+mjx-container [space="4"] { margin-left: 0.278em; }
+mjx-container [space="5"] { margin-left: 0.333em; }
+mjx-container [rspace="1"] { margin-right: 0.111em; }
+mjx-container [rspace="2"] { margin-right: 0.167em; }
+mjx-container [rspace="3"] { margin-right: 0.222em; }
+mjx-container [rspace="4"] { margin-right: 0.278em; }
+mjx-container [rspace="5"] { margin-right: 0.333em; }
+mjx-container [size="s"] { font-size: 70.7%; }
+mjx-container [size="ss"] { font-size: 50%; }
+mjx-container [size="Tn"] { font-size: 60%; }
+mjx-container [size="sm"] { font-size: 85%; }
+mjx-container [size="lg"] { font-size: 120%; }
+mjx-container [size="Lg"] { font-size: 144%; }
+mjx-container [size="LG"] { font-size: 173%; }
+mjx-container [size="hg"] { font-size: 207%; }
+mjx-container [size="HG"] { font-size: 249%; }
+mjx-container [width="full"] { width: 100%; }
+mjx-box { display: inline-block; }
+mjx-block { display: block; }
+mjx-itable { display: inline-table; }
+mjx-row { display: table-row; }
+mjx-row > * { display: table-cell; }
+mjx-mtext { display: inline-block; text-align: left; }
+mjx-mstyle { display: inline-block; }
+mjx-merror { display: inline-block; color: red; background-color: yellow; }
+mjx-mphantom { visibility: hidden; }
+mjx-assistive-mml { top: 0px; left: 0px; clip: rect(1px, 1px, 1px, 1px); user-select: none; position: absolute !important; padding: 1px 0px 0px !important; border: 0px !important; display: block !important; width: auto !important; overflow: hidden !important; }
+mjx-assistive-mml[display="block"] { width: 100% !important; }
+mjx-math { display: inline-block; text-align: left; line-height: 0; text-indent: 0px; font-style: normal; font-weight: normal; font-size: 100%; letter-spacing: normal; border-collapse: collapse; overflow-wrap: normal; word-spacing: normal; white-space: nowrap; direction: ltr; padding: 1px 0px; }
+mjx-container[jax="CHTML"][display="true"] { display: block; text-align: center; margin: 1em 0px; }
+mjx-container[jax="CHTML"][display="true"][width="full"] { display: flex; }
+mjx-container[jax="CHTML"][display="true"] mjx-math { padding: 0px; }
+mjx-container[jax="CHTML"][justify="left"] { text-align: left; }
+mjx-container[jax="CHTML"][justify="right"] { text-align: right; }
+mjx-c { display: inline-block; }
+mjx-utext { display: inline-block; padding: 0.75em 0px 0.2em; }
+mjx-mo { display: inline-block; text-align: left; }
+mjx-stretchy-h { display: inline-table; width: 100%; }
+mjx-stretchy-h > * { display: table-cell; width: 0px; }
+mjx-stretchy-h > * > mjx-c { display: inline-block; transform: scaleX(1); }
+mjx-stretchy-h > * > mjx-c::before { display: inline-block; width: initial; }
+mjx-stretchy-h > mjx-ext { overflow: clip visible; width: 100%; }
+mjx-stretchy-h > mjx-ext > mjx-c::before { transform: scaleX(500); }
+mjx-stretchy-h > mjx-ext > mjx-c { width: 0px; }
+mjx-stretchy-h > mjx-beg > mjx-c { margin-right: -0.1em; }
+mjx-stretchy-h > mjx-end > mjx-c { margin-left: -0.1em; }
+mjx-stretchy-v { display: inline-block; }
+mjx-stretchy-v > * { display: block; }
+mjx-stretchy-v > mjx-beg { height: 0px; }
+mjx-stretchy-v > mjx-end > mjx-c { display: block; }
+mjx-stretchy-v > * > mjx-c { transform: scaleY(1); transform-origin: left center; overflow: hidden; }
+mjx-stretchy-v > mjx-ext { display: block; height: 100%; box-sizing: border-box; border: 0px solid transparent; overflow: visible clip; }
+mjx-stretchy-v > mjx-ext > mjx-c::before { width: initial; box-sizing: border-box; }
+mjx-stretchy-v > mjx-ext > mjx-c { transform: scaleY(500) translateY(0.075em); overflow: visible; }
+mjx-mark { display: inline-block; height: 0px; }
+mjx-mi { display: inline-block; text-align: left; }
+mjx-mn { display: inline-block; text-align: left; }
+mjx-msup { display: inline-block; text-align: left; }
+mjx-texatom { display: inline-block; text-align: left; }
+mjx-c::before { display: block; width: 0px; }
+.MJX-TEX { font-family: MJXZERO, MJXTEX; }
+.TEX-B { font-family: MJXZERO, MJXTEX-B; }
+.TEX-I { font-family: MJXZERO, MJXTEX-I; }
+.TEX-MI { font-family: MJXZERO, MJXTEX-MI; }
+.TEX-BI { font-family: MJXZERO, MJXTEX-BI; }
+.TEX-S1 { font-family: MJXZERO, MJXTEX-S1; }
+.TEX-S2 { font-family: MJXZERO, MJXTEX-S2; }
+.TEX-S3 { font-family: MJXZERO, MJXTEX-S3; }
+.TEX-S4 { font-family: MJXZERO, MJXTEX-S4; }
+.TEX-A { font-family: MJXZERO, MJXTEX-A; }
+.TEX-C { font-family: MJXZERO, MJXTEX-C; }
+.TEX-CB { font-family: MJXZERO, MJXTEX-CB; }
+.TEX-FR { font-family: MJXZERO, MJXTEX-FR; }
+.TEX-FRB { font-family: MJXZERO, MJXTEX-FRB; }
+.TEX-SS { font-family: MJXZERO, MJXTEX-SS; }
+.TEX-SSB { font-family: MJXZERO, MJXTEX-SSB; }
+.TEX-SSI { font-family: MJXZERO, MJXTEX-SSI; }
+.TEX-SC { font-family: MJXZERO, MJXTEX-SC; }
+.TEX-T { font-family: MJXZERO, MJXTEX-T; }
+.TEX-V { font-family: MJXZERO, MJXTEX-V; }
+.TEX-VB { font-family: MJXZERO, MJXTEX-VB; }
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c { font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A !important; }
+@font-face { font-family: MJXZERO; src: url("lib/fonts/mathjax_zero.woff") format("woff"); }
+@font-face { font-family: MJXTEX; src: url("lib/fonts/mathjax_main-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-B; src: url("lib/fonts/mathjax_main-bold.woff") format("woff"); }
+@font-face { font-family: MJXTEX-I; src: url("lib/fonts/mathjax_math-italic.woff") format("woff"); }
+@font-face { font-family: MJXTEX-MI; src: url("lib/fonts/mathjax_main-italic.woff") format("woff"); }
+@font-face { font-family: MJXTEX-BI; src: url("lib/fonts/mathjax_math-bolditalic.woff") format("woff"); }
+@font-face { font-family: MJXTEX-S1; src: url("lib/fonts/mathjax_size1-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-S2; src: url("lib/fonts/mathjax_size2-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-S3; src: url("lib/fonts/mathjax_size3-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-S4; src: url("lib/fonts/mathjax_size4-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-A; src: url("lib/fonts/mathjax_ams-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-C; src: url("lib/fonts/mathjax_calligraphic-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-CB; src: url("lib/fonts/mathjax_calligraphic-bold.woff") format("woff"); }
+@font-face { font-family: MJXTEX-FR; src: url("lib/fonts/mathjax_fraktur-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-FRB; src: url("lib/fonts/mathjax_fraktur-bold.woff") format("woff"); }
+@font-face { font-family: MJXTEX-SS; src: url("lib/fonts/mathjax_sansserif-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-SSB; src: url("lib/fonts/mathjax_sansserif-bold.woff") format("woff"); }
+@font-face { font-family: MJXTEX-SSI; src: url("lib/fonts/mathjax_sansserif-italic.woff") format("woff"); }
+@font-face { font-family: MJXTEX-SC; src: url("lib/fonts/mathjax_script-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-T; src: url("lib/fonts/mathjax_typewriter-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-V; src: url("lib/fonts/mathjax_vector-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-VB; src: url("lib/fonts/mathjax_vector-bold.woff") format("woff"); }
+mjx-c.mjx-c28::before { padding: 0.75em 0.389em 0.25em 0px; content: "("; }
+mjx-c.mjx-c1D45D.TEX-I::before { padding: 0.442em 0.503em 0.194em 0px; content: "p"; }
+mjx-c.mjx-c2212::before { padding: 0.583em 0.778em 0.082em 0px; content: "−"; }
+mjx-c.mjx-c31::before { padding: 0.666em 0.5em 0px 0px; content: "1"; }
+mjx-c.mjx-c29::before { padding: 0.75em 0.389em 0.25em 0px; content: ")"; }
+mjx-c.mjx-c2C::before { padding: 0.121em 0.278em 0.194em 0px; content: ","; }
+mjx-c.mjx-c1D45E.TEX-I::before { padding: 0.442em 0.46em 0.194em 0px; content: "q"; }
+mjx-c.mjx-c1D452.TEX-I::before { padding: 0.442em 0.466em 0.011em 0px; content: "e"; }
+mjx-c.mjx-c1D451.TEX-I::before { padding: 0.694em 0.52em 0.01em 0px; content: "d"; }
+mjx-c.mjx-c1D441.TEX-I::before { padding: 0.683em 0.888em 0px 0px; content: "N"; }
+mjx-c.mjx-c3D::before { padding: 0.583em 0.778em 0.082em 0px; content: "="; }
+mjx-c.mjx-c1D45A.TEX-I::before { padding: 0.442em 0.878em 0.011em 0px; content: "m"; }
+mjx-c.mjx-c1D450.TEX-I::before { padding: 0.442em 0.433em 0.011em 0px; content: "c"; }
+mjx-c.mjx-c6D::before { padding: 0.442em 0.833em 0px 0px; content: "m"; }
+mjx-c.mjx-c6F::before { padding: 0.448em 0.5em 0.01em 0px; content: "o"; }
+mjx-c.mjx-c64::before { padding: 0.694em 0.556em 0.011em 0px; content: "d"; }
+mjx-c.mjx-c1D458.TEX-I::before { padding: 0.694em 0.521em 0.011em 0px; content: "k"; }
+mjx-c.mjx-c2B::before { padding: 0.583em 0.778em 0.082em 0px; content: "+"; }
+</style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="데드락"><p dir="auto">데드락</p></h1><div class="heading-wrapper"><h3 data-heading="출처" dir="auto" class="heading" id="출처"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>출처</h3><div class="heading-children"><div><ul dir="auto">
+<li data-line="0" dir="auto"><a rel="noopener" class="external-link" href="https://velog.io/@minseojo/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%8B%9D%EC%82%AC%ED%95%98%EB%8A%94-%EC%B2%A0%ED%95%99%EC%9E%90-%EB%AC%B8%EC%A0%9C" target="_blank">https://velog.io/@minseojo/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%8B%9D%EC%82%AC%ED%95%98%EB%8A%94-%EC%B2%A0%ED%95%99%EC%9E%90-%EB%AC%B8%EC%A0%9C</a> (식사하는 철학자)</li>
+<li data-line="1" dir="auto"><a rel="noopener" class="external-link" href="https://velog.io/@bbamjoong/18.-%EB%8D%B0%EB%93%9C%EB%9D%BD%EA%B3%BC-%EB%B1%85%EC%BB%A4-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-Chapter-8.-Deadlocks-Part-2" target="_blank">https://velog.io/@bbamjoong/18.-%EB%8D%B0%EB%93%9C%EB%9D%BD%EA%B3%BC-%EB%B1%85%EC%BB%A4-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-Chapter-8.-Deadlocks-Part-2</a> (교착 상태 회피)</li>
+</ul></div><div><hr dir="auto"></div></div></div><div class="heading-wrapper"><h3 data-heading="개요" dir="auto" class="heading" id="개요"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>개요</h3><div class="heading-children"><div><ul dir="auto">
+<li data-line="0" dir="auto"><a data-href="#데드락" href="#데드락" class="internal-link" target="_self" rel="noopener">데드락</a></li>
+<li data-line="1" dir="auto"><a data-href="#데드락의 조건" href="#데드락의_조건" class="internal-link" target="_self" rel="noopener">데드락의 조건</a></li>
+<li data-line="2" dir="auto"><a data-href="#식사하는 철학자 문제" href="#식사하는_철학자_문제" class="internal-link" target="_self" rel="noopener">식사하는 철학자 문제</a></li>
+<li data-line="3" dir="auto"><a data-href="#자원할당 그래프" href="#자원할당_그래프" class="internal-link" target="_self" rel="noopener">자원할당 그래프</a></li>
+<li data-line="4" dir="auto"><a data-href="#데드락 예방" href="#데드락_예방" class="internal-link" target="_self" rel="noopener">데드락 예방</a></li>
+<li data-line="5" dir="auto"><a data-href="#데드락 회피" href="#데드락_회피" class="internal-link" target="_self" rel="noopener">데드락 회피</a></li>
+<li data-line="6" dir="auto"><a data-href="#은행원 알고리즘" href="#은행원_알고리즘" class="internal-link" target="_self" rel="noopener">은행원 알고리즘</a></li>
+<li data-line="7" dir="auto"><a data-href="#데드락 회복 알고리즘" href="#데드락_회복_알고리즘" class="internal-link" target="_self" rel="noopener">데드락 회복 알고리즘</a></li>
+<li data-line="8" dir="auto"><a data-href="#현대 OS의 데드락 처리" href="#현대_OS의_데드락_처리" class="internal-link" target="_self" rel="noopener">현대 OS의 데드락 처리</a></li>
+</ul></div><div><hr dir="auto"></div></div></div><div class="heading-wrapper"><h3 data-heading="데드락" dir="auto" class="heading" id="데드락"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>데드락</h3><div class="heading-children"><div><p dir="auto"><b><u>데드락은 두개 이상의 경쟁하는 행동이 서로 다른 것이 먼저 끝나기를 기다릴 때 발생한다. 아래와 같은 상황을 데드락이라 한다.</u></b><br>
+<img src="https://my-study.s3.ap-northeast-2.amazonaws.com/%EB%8D%B0%EB%93%9C%EB%9D%BD%20/%20Pasted%20image%2020231207232002.png" referrerpolicy="no-referrer"><br>
+쓰레드 1이 자원 1을 릴리즈 하지 않아 쓰레드 2는 대기하고 자원2를 릴리즈 하지 못한다. 반면 쓰레드 1은 자원 2가 릴리즈 되지 않아 자원 1을 릴리즈 하지 못한다. 이 처럼 꼬리에 꼬리를 물고 아무도 동작하지 못하게 되는 상황을 데드락이라 부른다.</p></div><div><hr dir="auto"></div></div></div><div class="heading-wrapper"><h3 data-heading="데드락의 조건" dir="auto" class="heading" id="데드락의_조건"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>데드락의 조건</h3><div class="heading-children"><div><ul dir="auto">
+<li data-line="0" dir="auto"><strong>상호배제</strong><br>
+한번에 한 프로세스만이 자원을 사용할 수 있다.</li>
+<li data-line="2" dir="auto"><strong>점유 및 대기</strong><br>
+자원을 대기하면서 이미 다른 자원을 사용하고 있다.</li>
+<li data-line="4" dir="auto"><strong>비 선점</strong><br>
+프로세스가 점유한 자원을 뺏기지 않는다.</li>
+<li data-line="6" dir="auto"><strong>환형 대기</strong><br>
+프로세스가 자원을 대기하면서 점유하는 그래프가 원형 형태로 만들어지는 것을 말한다. <strong>위의 이미지 같은 상황이 발생하는 것</strong>을 말한다.</li>
+</ul></div><div><p dir="auto"><mark><strong>4가지 조건을 모두 만족해야 데드락이 발생한다.</strong></mark> 발생할 일이 희귀할 것 같지만 생각보다 발생하는 경우가 종종 존재한다.</p></div><div><p dir="auto"><strong>데드락은 반드시 처리돼야 하며 데드락을 처리하는 방법은 4가지가 존재한다.</strong></p></div><div><ul dir="auto">
+<li data-line="0" dir="auto">데드락의 발생을 100% 방지하는 예방 기법</li>
+<li data-line="1" dir="auto">데드락이 발생할 수 있으나 발생하지 않게 하는 회피 기법</li>
+<li data-line="2" dir="auto">데드락이 발생했을 경우 회복하는 방법</li>
+<li data-line="3" dir="auto">데드락을 무시하는 방법 등이 있다.</li>
+</ul></div><div><hr dir="auto"></div></div></div><div class="heading-wrapper"><h3 data-heading="식사하는 철학자 문제" dir="auto" class="heading" id="식사하는_철학자_문제"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>식사하는 철학자 문제</h3><div class="heading-children"><div><p dir="auto"><img src="https://my-study.s3.ap-northeast-2.amazonaws.com/%EB%8D%B0%EB%93%9C%EB%9D%BD%20/%20Pasted%20image%2020231208114540.png" referrerpolicy="no-referrer"></p></div><div><p dir="auto">철학자 다섯이서 원탁에 앉아 밥을먹는다 이때 젓가락은 5개 밖에 존재하지 않는다. 철학자들은 아래의 행동을 순서에 따라 반복한다.</p></div><div><ol dir="auto">
+<li data-line="0" dir="auto">왼쪽 젓가락을 집는다. 누가 사용중이면 대기한다.</li>
+<li data-line="1" dir="auto">오른쪽을 집는다. 누가 사용중이면 대기한다.</li>
+<li data-line="2" dir="auto">젓가락을 모두 집었으면, 식사를 한다.</li>
+<li data-line="3" dir="auto">식사를 마쳤으면 젓가락을 모두 내려놓는다.</li>
+</ol></div><div><p dir="auto">철학자들이 다 같이 식사를 진행하려하면 동시에 젓가락 한 개를 들고 대기하기 때문에 아무도 식사를 하지 못하는 교착상태가 발생하다가 모두 굶어 죽는 현상이 발생하게 된다.</p></div><div><p dir="auto"><strong>식사하는 철학자 문제는 교착상태의 4가지 조건을 모두 만족하는 대표적인 문제</strong>이다. 젓가락은 선점되지 않으며, 원형대기가 발생한다. 또한 젓가락을 동시에 두명의 철학자가 공유해 사용할 수는 없다(상호배제). 또한 젓가락 한개를 든채로 다른 젓가락을 대기한다.(Hold-Wait)</p></div><div><p dir="auto">위의 4가지 중 하나만 회피 가능해도 교착상태를 회피할 수 있으므로 <strong>식사하는 철학자 문제는 다양한 방법으로 해결</strong>할 수 있다.</p></div><div><ul dir="auto">
+<li data-line="0" dir="auto">
+<p dir="auto"><strong>집는 순서 변경하기</strong><br>
+짝수 번째의 철학자는 오른쪽부터 젓가락을 들고 홀수 번째 철학자는 왼쪽부터 젓가락을 집으면 모두가 동시에 젓가락을 1개씩 집은 체 환형으로 대기하는 상황을 방지할 수 있다.</p>
+</li>
+<li data-line="3" dir="auto">
+<p dir="auto"><strong>젓가락 수 늘리기</strong><br>
+젓가락 수를 늘리면 적어도 1명의 철학자는 식사를 진행하므로 데드락을 풀 수 있다.</p>
+</li>
+<li data-line="6" dir="auto">
+<p dir="auto"><strong>젓가락 1개로 먹기</strong><br>
+젓가락 1개로 먹는 법을 터득해도 된다.</p>
+</li>
+</ul></div><div><hr dir="auto"></div></div></div><div class="heading-wrapper"><h3 data-heading="자원할당 그래프" dir="auto" class="heading" id="자원할당_그래프"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>자원할당 그래프</h3><div class="heading-children"><div><p dir="auto"><strong>프로세스와 자원 사이의 관계를 표기하기 위한 그래프이다.</strong> 이때 프로세스 → 자원을 요청선이라 부르고 자원 → 프로세스를 할당선이라 한다. 할당 그래프를 사용하면 프로세스의 데드락 여부를 확인 할 수 있다.<br>
+<img src="https://my-study.s3.ap-northeast-2.amazonaws.com/%EB%8D%B0%EB%93%9C%EB%9D%BD%20/%20Pasted%20image%2020231207232819.png" referrerpolicy="no-referrer"></p></div><div><p dir="auto">위의 그림은 <strong>교착 상태가 발생하는 그래프의 모습</strong>이다. 그래프를 살펴보면 P1이 종료 가능한 프로세스 처럼 보이지만 사실 P1은 P2로인해 이미 선점돼 있는 R1의 자원을 획득하지 못해 종료되지 않는다. 또한 P2 역시 P3에 의해 선점된 R2로 인해 종료되지 못하고 P3는 P2, P1이 R3 의 자원을 사용하고 있어 종료되지 못한다. 꼬리에 꼬리를 무는 환형대기가 발생하며 데드락이 발생하는 것을 확인할 수 있다.</p></div><div><p dir="auto">문제는 간단히 해결 할 수 있는데, 가장 쉬운 방법은 R3에 자원을 한개 더 추가해주는 것이다. 혹은 이미 선점된 자원에 한해서는 요청을 못하게 할 수도 있다.</p></div><div><hr dir="auto"></div></div></div><div class="heading-wrapper"><h3 data-heading="데드락 예방" dir="auto" class="heading" id="데드락_예방"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>데드락 예방</h3><div class="heading-children"><div><ul dir="auto">
+<li data-line="0" dir="auto">
+<p dir="auto"><strong>순환 대기 방지</strong><br>
+세마포어나 뮤텍스 등을 활용해 실행 순서를 강제해 환형대기가 발생하지 않게 한다. 자원이 할당되는 순서를 정해 놓는 방식을 말한다. 프로그래머가 완벽하게 강제할 수 없다는 단점이 존재한다.</p>
+</li>
+<li data-line="3" dir="auto">
+<p dir="auto"><strong>Hold-and-Wait 삭제</strong><br>
+<strong>프로세스에게 필요한 자원을 미리 전부 할당해 놓고 락을 걸어버리는 방법</strong>을 말한다. 이에 따라 프로세스는 다른 자원을 위해 대기할 필요가 없어지므로 데드락이 발생하지 않는다. 다른 방법은 <strong>프로세스가 어떤 자원도 갖고 있지 않을 경우에만 할당을 진행</strong>하는 것이다. 이 경우 프로세스가 다른 자원에 종속성을 가질 경우  기아가 발생할 수도 있다.</p>
+</li>
+<li data-line="6" dir="auto">
+<p dir="auto"><strong>선점 사용</strong><br>
+<strong>프로세스가 자원이 필요할 경우 자신의 자원을 모두 해제한 다음 새로운 자원을 가질 수 있게 만든다. 이후 다시금 기존 자신의 자원을 요청해 할당 받으면 필요 자원을 모두 할당 받을 수 있다.</strong> 굳이 해제 후 할당하는 이유는 프로세스의 자원 독점을 방지하기 위해서이다.<br>
+이 방법은 데드락을 예방할 수 있지만, 기존에 사용하던 자원을 복구 하는 연산을 진행해야 한다. 이때 기존 자원을 다른 프로세스가 사용중이면 추가 대기가 필요할 수도 있다. 이에 따라 복구가 쉬운 프로세스라면 유용하지만 아닐 경우 오버헤드가 큰 방법이다.</p>
+</li>
+<li data-line="10" dir="auto">
+<p dir="auto"><strong>Mutual Exclusion</strong><br>
+공유 가능 자원에 복수 개의 프로세스가 접근 할 수 있게 설정한다. 한 자원을 여러 프로세스가 이용할 수 있으나 경쟁 조건 등의 문제가 또다시 발생한다.</p>
+</li>
+</ul></div><div><p dir="auto"><strong>위의 방법들은 교착 상태를 완벽하게 예방하지만 오버헤드가 큰 방법이라 사용하지 않는다</strong>. 위의 방법보다 오버헤드가 적은 교착 상태 방지나 회복을 주로 사용한다.</p></div><div><hr dir="auto"></div></div></div><div class="heading-wrapper"><h3 data-heading="데드락 회피" dir="auto" class="heading" id="데드락_회피"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>데드락 회피</h3><div class="heading-children"><div><p dir="auto"><span class="red red-bg">데드락 회피는 데드락을 100% 방지하는 예방과는 달리 데드락이 발생할 수 있는 상황을 감지하고 해당 상황을 회피하는 방식을 말한다.</span> 데드락이 발생할 수도 있다는 것을 인지하고 이를 회피하는 방식이고 <strong>데드락 예방보다 오버헤드가 적고 성능이 빠른 방식이다.</strong></p></div><div><p dir="auto"><b><u>데드락 회피 알고리즘은 교착상태를 피할 수 있는 방법으로 자원을 할당한다.</u></b> 이에 따라 교착 상태 발생 가능성을 프로세스 시작 전에 파악해야 하기 때문에 프로세스에서 활용할 자원의 양과 사용 가능한 자원을 명확히 파악 해야만 한다. </p></div><div><p dir="auto">데드락 회피 방법으로는 크게 프로세스 시작 거부와 자원 할당 거부 2개가 존재한다.</p></div><div><ul dir="auto">
+<li data-line="0" dir="auto"><strong>프로세스 시작 거부</strong><br>
+<strong>프로세스가 시작되기 위한  자원이 부족할 때 실행을 거부하고 다른 프로세스가 자원을 반납할 때 까지 대기 하는 방법이다.</strong> 프로세스마다 자원의 요청과 해제의 정확한 순서를 파악하고 요청에 따른 프로세스 대기 여부를 결정한다.</li>
+</ul></div><div><ul dir="auto">
+<li data-line="0" dir="auto"><strong>자원 할당 거부</strong><br>
+대표적으로 은행원 알고리즘이 있다. <u><b>은행원 알고리즘은 안정상태를 유지할 수 있는 요구만을 수락하고 불안전 상태를 초래할 요구는 조건이 충족될 때까지 거절하는 알고리즘이다.</b></u> 프로세스가 요청하는 자원이 할당 가능한 경우에만 프로세스의 실행을 수락하고 아닌 경우 프로세스를 계속해서 대기 시킨다. 이를 위해선 프로세스가 최대 요청할 자원의 크기, 현재 가용 가능한 자원의 크기를 항시 확인하고 있어야 하는데 오히려 매번 프로세스를 실행할 때 마다 이런 연산을 진행하는 것이 더욱 오버헤드가 더 클 수도 있다는 모순이 존재한다.</li>
+</ul></div><div><div data-callout-metadata="" data-callout-fold="" data-callout="info" class="callout" dir="auto"><div class="callout-title" dir="auto"><div class="callout-icon" dir="auto"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-info"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></div><div class="callout-title-inner" dir="auto">Info</div></div><div class="callout-content" dir="auto">
+<p dir="auto"><strong>회피 알고리즘은 프로세스의 자원 할당, 요청 현황을 보고 프로세스가 데드락이 발생하는 위험 상태에 이르지 않게 한다.(unsafe에 머물게한다)</strong> </p>
+</div></div></div><div><p dir="auto"><img src="https://my-study.s3.ap-northeast-2.amazonaws.com/%EB%8D%B0%EB%93%9C%EB%9D%BD%20/%20%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-12-08%20%EC%98%A4%EC%A0%84%2012.16.21.png" referrerpolicy="no-referrer"></p></div><div><hr dir="auto"></div></div></div><div class="heading-wrapper"><h3 data-heading="은행원 알고리즘" dir="auto" class="heading" id="은행원_알고리즘"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>은행원 알고리즘</h3><div class="heading-children"><div><p dir="auto"><span class="math math-inline is-loaded"><mjx-container class="MathJax" jax="CHTML"><mjx-math class="MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D436 TEX-I"></mjx-c></mjx-mi></mjx-math></mjx-container></span>는 현재 프로세스가 필요로 하는 자원 행렬을 <span class="math math-inline is-loaded"><mjx-container class="MathJax" jax="CHTML"><mjx-math class="MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D434 TEX-I"></mjx-c></mjx-mi></mjx-math></mjx-container></span>는 프로세스에 이미 할당된 자원의 행렬을 의미한다 했을 때. 프로세스의 가용을 위해 필요한 행렬은 <span class="math math-inline is-loaded"><mjx-container class="MathJax" jax="CHTML"><mjx-math class="MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D436 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="3"><mjx-c class="mjx-c1D434 TEX-I"></mjx-c></mjx-mi></mjx-math></mjx-container></span>가 된다. 또한 R은 전체 자원의 벡터이고 <span class="math math-inline is-loaded"><mjx-container class="MathJax" jax="CHTML"><mjx-math class="MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D449 TEX-I"></mjx-c></mjx-mi></mjx-math></mjx-container></span>는 현재 할당 가능한 벡터라고 하자. 이때 <span class="math math-inline is-loaded"><mjx-container class="MathJax" jax="CHTML"><mjx-math class="MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D434 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-c2B"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="3"><mjx-c class="mjx-c1D449 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="4"><mjx-c class="mjx-c1D445 TEX-I"></mjx-c></mjx-mi></mjx-math></mjx-container></span> 의 수식이 성립하는데 이는 할당된 행렬과 활용 가능한 벡터를 합치면 전체 리소스 행렬이 되기 때문이다. <span class="math math-inline is-loaded"><mjx-container class="MathJax" jax="CHTML"><mjx-math class="MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D449 TEX-I"></mjx-c></mjx-mi></mjx-math></mjx-container></span>를 활용해 할당시 종료가 가능한 프로세스에 자원을 할당해준 뒤 프로세스를 끝낸다. 이후 해당 프로세스에 할당됐던 자원을 회수해 <span class="math math-inline is-loaded"><mjx-container class="MathJax" jax="CHTML"><mjx-math class="MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D449 TEX-I"></mjx-c></mjx-mi></mjx-math></mjx-container></span>에 추가해준다. 즉, <span class="math math-inline is-loaded"><mjx-container class="MathJax" jax="CHTML"><mjx-math class="MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D449 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-msub space="4"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D443 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: -0.15em; margin-left: -0.109em;"><mjx-mi class="mjx-i" size="s"><mjx-c class="mjx-c1D456 TEX-I"></mjx-c></mjx-mi></mjx-script></mjx-msub><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-c2B"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="3"><mjx-c class="mjx-c1D449 TEX-I"></mjx-c></mjx-mi></mjx-math></mjx-container></span>가 성립한다.</p></div><div><p dir="auto">이를 계속 반복하면서 프로세스를 종료한다. 만약 <strong>더 이상 어떤 프로세스에도 자원을 할당 할 수 없다면, 이는 데드락이다. 반대로 모든 프로세스가 실행 가능하다면 데드락이 아니다</strong></p></div><div><p dir="auto"><img src="https://my-study.s3.ap-northeast-2.amazonaws.com/%EB%8D%B0%EB%93%9C%EB%9D%BD%20/%20%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-12-08%20%EC%98%A4%EC%A0%84%2012.21.48.png" referrerpolicy="no-referrer"></p></div><div><hr dir="auto"></div></div></div><div class="heading-wrapper"><h3 data-heading="데드락 회복 알고리즘" dir="auto" class="heading" id="데드락_회복_알고리즘"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>데드락 회복 알고리즘</h3><div class="heading-children"><div><p dir="auto">데드락 상태에 빠졌을 때 회복을 진행하는 방법이다. <strong>회복을 진행하기 위해선 우선적으로 현재 상태가 데드락임을 감지할 수 있어야 하는데 이를 감지할 수 있어야 한다</strong>. 탐지는 자원 할당 그래프를 사용하거나 은행원 알고리즘과 유사한 알고리즘을 활용해 진행한다. </p></div><div><p dir="auto">탐지 알고리즘을 활용해 데드락을 감지하면 회복 알고리즘을 활용하는데 상태 회복은 크게 종료와 선점으로 구현한다. </p></div><div><p dir="auto"><strong>종료로 해결하기</strong></p></div><div><ul dir="auto">
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p dir="auto"><strong>교착상태에 포함돼 있는 모든 프로세스를 죽인다.</strong></p>
+<ul dir="auto">
+<li data-line="1" dir="auto">프로세스의 현재까지의 작업 내역을 모조리 삭제하기에 부담이 큰 방법이다. 하지만 확실히 회복한다.</li>
+</ul>
+</li>
+<li data-line="3" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p dir="auto"><strong>교착 상태가 제거될 때까지 포함된 프로세스를 하나씩 종료한다.</strong></p>
+<ul dir="auto">
+<li data-line="4" dir="auto"><strong>종료할 때 마다 교착 상태 여부를 다시금 확인</strong>해야 하고 어떤 프로세스 부터 죽일지 결정하는데 오버헤드가 발생한다.</li>
+</ul>
+</li>
+</ul></div><div><p dir="auto"><strong>선점으로 해결하기</strong></p></div><div><ul dir="auto">
+<li data-line="0" dir="auto">비용이 가장 적은 자원을 선택해 다른 프로세스가 선점 가능하게 설정한다. 이후 교착상태 발생여부를 다시금 탐지한다. 자원을 뺏긴 프로세스는 자원을 할당 받기 전으로 롤백하고 다시 실행한다. <strong>동일한 프로세스가 연속해서 자원을 뺏기며 기아 문제가 발생할 수 있다.</strong></li>
+</ul></div><div><p dir="auto">탐지 알고리즘을 자주 호출 하는 것은 오버헤드가 크기 때문에 이를 적절히 호출하는 것이 중요하다. 이에 따라 정해진 주기나 이벤트가 발생했을 때만 호출한다.</p></div><div><hr dir="auto"></div></div></div><div class="heading-wrapper"><h3 data-heading="현대 OS의 데드락 처리" dir="auto" class="heading" id="현대_OS의_데드락_처리"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>현대 OS의 데드락 처리</h3><div class="heading-children"><div><p dir="auto"><strong>현대 os는 데드락을 따로 회복하지도 회피하지도 예방하지도 않는다. 데드락이 발생하면 데드락의 처리는 사용자에게 맡겨버린다. (무시)</strong> 이와 같은 방식으로 설계를 하는 이유는 애시 당초 OS단에서 데드락이 발생하는 경우가 희소하기 때문에 별도의 처리를 하는 것이 오버헤드가 더 크기 때문이다.</p></div><div><hr dir="auto"></div><div class="mod-footer"></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="os/데드락.html#데드락"><div class="tree-item-contents heading-link" heading-name="데드락"><span class="tree-item-title">데드락</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="os/데드락.html#출처"><div class="tree-item-contents heading-link" heading-name="출처"><span class="tree-item-title">출처</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="os/데드락.html#개요"><div class="tree-item-contents heading-link" heading-name="개요"><span class="tree-item-title">개요</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="os/데드락.html#데드락"><div class="tree-item-contents heading-link" heading-name="데드락"><span class="tree-item-title">데드락</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="os/데드락.html#데드락의_조건"><div class="tree-item-contents heading-link" heading-name="데드락의 조건"><span class="tree-item-title">데드락의 조건</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="os/데드락.html#식사하는_철학자_문제"><div class="tree-item-contents heading-link" heading-name="식사하는 철학자 문제"><span class="tree-item-title">식사하는 철학자 문제</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="os/데드락.html#자원할당_그래프"><div class="tree-item-contents heading-link" heading-name="자원할당 그래프"><span class="tree-item-title">자원할당 그래프</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="os/데드락.html#데드락_예방"><div class="tree-item-contents heading-link" heading-name="데드락 예방"><span class="tree-item-title">데드락 예방</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="os/데드락.html#데드락_회피"><div class="tree-item-contents heading-link" heading-name="데드락 회피"><span class="tree-item-title">데드락 회피</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="os/데드락.html#은행원_알고리즘"><div class="tree-item-contents heading-link" heading-name="은행원 알고리즘"><span class="tree-item-title">은행원 알고리즘</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="os/데드락.html#데드락_회복_알고리즘"><div class="tree-item-contents heading-link" heading-name="데드락 회복 알고리즘"><span class="tree-item-title">데드락 회복 알고리즘</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="os/데드락.html#현대_OS의_데드락_처리"><div class="tree-item-contents heading-link" heading-name="현대 OS의 데드락 처리"><span class="tree-item-title">현대 OS의 데드락 처리</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>
